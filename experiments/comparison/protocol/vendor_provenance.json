@@ -1,0 +1,30 @@
+{
+  "vendor/exact_srmd.py": {
+    "origin": "r14_work/public_candidate/r6_work/reference/historical/code/exact_srmd.py",
+    "sha256": "f86cea7c3bcaf68635388dbb71cd0b04b0fe7e0ce733135ccebe322bac53f3f9"
+  },
+  "vendor/persistent_hull_tree_dp.py": {
+    "origin": "r14_work/public_candidate/r6_work/reference/historical/code/persistent_hull_tree_dp.py",
+    "sha256": "ed856fa9a4a2eccf48b952c4eb1d15e1d5add3fae20fcec113f92f4057c78d06"
+  },
+  "vendor/fixed_menu_pricing.py": {
+    "origin": "r14_work/public_candidate/r6_work/reference/historical/code/fixed_menu_pricing.py",
+    "sha256": "a3e0c759ab8f7c6f1325808a505a0d08f8f6541f62e311142b1c5185aeebf44b"
+  },
+  "vendor/pht_structure_baselines.py": {
+    "origin": "r14_work/public_candidate/r6_work/reference/historical/code/pht_structure_baselines.py",
+    "sha256": "d4ea152c4b96c6394cca145311a5e2aa21a704ee283681ea8dbcadb56cd9b86a"
+  },
+  "vendor/srmd_direct_milp.py": {
+    "origin": "r6_work/reference/fair_pair_vendor/srmd_direct_milp.py",
+    "sha256": "7cebcec59d83493ffcbb3d8f5e0211c1acbe715b5eee75cfc02d4a444ffbefbe"
+  },
+  "code/t_scan_runner.py": {
+    "origin": "r6_work/code/t_scan_runner.py",
+    "sha256": "dba92a75e566c678d413fbaefbe8e98170b26419066b69a704735a23818766c4"
+  },
+  "code/t_scan_worker.py": {
+    "origin": "r6_work/code/t_scan_worker.py",
+    "sha256": "1543347e1c338644e15f02eccc54bbf976ef0c8cc96b57a9889e84fadc1459fb"
+  }
+}

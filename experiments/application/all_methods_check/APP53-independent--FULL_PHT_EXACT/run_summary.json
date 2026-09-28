@@ -1,0 +1,20 @@
+{
+  "elapsed_seconds": 0.06395862800127361,
+  "exit_code": 0,
+  "input_sha256": "b8d64b49a67f2365c92c8c900e3d81d381a1f0ec4d880cc50b6857ea772faa66",
+  "menu": [
+    1,
+    2
+  ],
+  "method": "FULL_PHT_EXACT",
+  "prices": [
+    "6",
+    "9"
+  ],
+  "profit": "238",
+  "recorded_profit": "238",
+  "recorded_profit_matches": true,
+  "run_id": "APP53-independent--FULL_PHT_EXACT",
+  "scenario": "independent",
+  "status": "PASS"
+}

@@ -1,0 +1,92 @@
+{
+  "threshold": {
+    "completed_attempts": 1,
+    "frontier_matches": 1,
+    "limits": {
+      "cpu_threads": 1,
+      "parallel_workers": 1,
+      "per_attempt_wall_seconds": 60,
+      "per_worker_address_space_bytes": 4294967296,
+      "suite_wall_seconds": 3600,
+      "timeout_kill_grace_seconds": 2
+    },
+    "objective_matches": 1,
+    "requested_attempts": 1,
+    "scope": "new_solver_runs",
+    "source_hashes": {
+      "exact_srmd.py": "f86cea7c3bcaf68635388dbb71cd0b04b0fe7e0ce733135ccebe322bac53f3f9",
+      "persistent_hull_tree_dp.py": "ed856fa9a4a2eccf48b952c4eb1d15e1d5add3fae20fcec113f92f4057c78d06"
+    },
+    "status": "PASS",
+    "timing_note": "New observations use this machine and are separate from the historical published measurements."
+  },
+  "scaling": {
+    "address_space_limit_bytes": 4294967296,
+    "completed_attempts": 1,
+    "deadline_seconds": 300,
+    "independent_replays": 1,
+    "same_archived_optimizer_and_worker": true,
+    "scope": "New execution on the current machine; these timings are not substituted into Table II.",
+    "selected_attempts": 1,
+    "status": "PASS",
+    "status_counts": {
+      "EXACT_COMPLETE": 1
+    },
+    "worker_cpu": 0
+  },
+  "structure": {
+    "status": "PASS",
+    "instances": 1,
+    "method_calls": 5,
+    "additional_fixed_catalog_replays": 2,
+    "methods": [
+      "full",
+      "path",
+      "one_branch",
+      "contiguous",
+      "greedy",
+      "capacity"
+    ],
+    "elapsed_seconds": 0.3379513520048931,
+    "scope": "Only selected instances re-solved; every listed comparison uses the corrected archived reference."
+  },
+  "comparison": {
+    "all_methods_numerically_complete": true,
+    "elapsed_seconds": 0.5916814390002401,
+    "observed_results_overwritten": false,
+    "recorded_attempts": 3,
+    "selected_attempts": 3,
+    "smoke": true,
+    "solver_calls": 3,
+    "status": "COMPLETE",
+    "status_counts": {
+      "NUMERIC_COMPLETE": 3
+    }
+  },
+  "application": {
+    "runs": [
+      {
+        "elapsed_seconds": 0.11415423399739666,
+        "exit_code": 0,
+        "input_sha256": "b8d64b49a67f2365c92c8c900e3d81d381a1f0ec4d880cc50b6857ea772faa66",
+        "menu": [
+          1,
+          2
+        ],
+        "method": "FULL_PHT_EXACT",
+        "prices": [
+          "6",
+          "9"
+        ],
+        "profit": "238",
+        "recorded_profit": "238",
+        "recorded_profit_matches": true,
+        "run_id": "APP53-independent--FULL_PHT_EXACT",
+        "scenario": "independent",
+        "status": "PASS"
+      }
+    ],
+    "scope": "Fresh exact solves with canonical replay, compared with recorded objective values; timings are from this new environment.",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "schema": "saferefresh-p0-baseline-impact-summary-v1",
+  "status": "COMPLETE_FULL",
+  "scope": "Only corrected contiguous and greedy baselines; archived main-PHT objectives are references, not recomputed.",
+  "relative_tolerance": 1e-08,
+  "all_source_counts": {
+    "structure": 750,
+    "s1": 648
+  },
+  "selected_count": 1398,
+  "completed_count": 1398,
+  "selected_source_ids_sha256": "6aeacc0b06388117809e8063064ebbf99094eeb1f8f6abbdcdea688eb593315a",
+  "completed_source_ids_sha256": "6aeacc0b06388117809e8063064ebbf99094eeb1f8f6abbdcdea688eb593315a",
+  "current_invocation_wall_seconds": 81.86387582899988,
+  "by_suite": {
+    "structure": {
+      "source_count": 750,
+      "selected_count": 750,
+      "completed_count": 750,
+      "baselines": {
+        "contiguous": {
+          "materially_changed_count": 0,
+          "improved_count": 0,
+          "worsened_count": 0,
+          "known_menu_changed_count": 0,
+          "old_loss": {
+            "count": 750,
+            "mean": 0.11310382100266,
+            "median": 0.11452208528451491,
+            "p95": 0.25148634170481954,
+            "maximum": 0.4077588612894223,
+            "minimum": 0.0
+          },
+          "corrected_loss": {
+            "count": 750,
+            "mean": 0.11310382100266002,
+            "median": 0.11452208528451491,
+            "p95": 0.25148634170481954,
+            "maximum": 0.4077588612894223,
+            "minimum": 0.0
+          },
+          "profit_change": {
+            "count": 750,
+            "mean": -6.912159733474254e-14,
+            "median": 0.0,
+            "p95": 0.0,
+            "maximum": 1.4551915228366852e-11,
+            "minimum": -1.4551915228366852e-11
+          },
+          "wall_seconds": {
+            "count": 750,
+            "mean": 0.06599817980132745,
+            "median": 0.02042509100101597,
+            "p95": 0.25018660680061655,
+            "maximum": 0.5062288890003401,
+            "minimum": 0.01398875599988969
+          },
+          "old_strict_loss_count": 748,
+          "corrected_strict_loss_count": 748
+        },
+        "greedy": {
+          "materially_changed_count": 0,
+          "improved_count": 0,
+          "worsened_count": 0,
+          "known_menu_changed_count": 0,
+          "old_loss": {
+            "count": 750,
+            "mean": 6.13788764596943e-07,
+            "median": 0.0,
+            "p95": 0.0,
+            "maximum": 0.0004603415734477073,
+            "minimum": 0.0
+          },
+          "corrected_loss": {
+            "count": 750,
+            "mean": 6.13788764596943e-07,
+            "median": 0.0,
+            "p95": 0.0,
+            "maximum": 0.0004603415734477073,
+            "minimum": 0.0
+          },
+          "profit_change": {
+            "count": 750,
+            "mean": 0.0,
+            "median": 0.0,
+            "p95": 0.0,
+            "maximum": 0.0,
+            "minimum": 0.0
+          },
+          "wall_seconds": {
+            "count": 750,
+            "mean": 0.07432178777462346,
+            "median": 0.022484977999738476,
+            "p95": 0.3220213540504119,
+            "maximum": 0.48390862599990214,
+            "minimum": 0.0067005769997194875
+          },
+          "old_strict_loss_count": 1,
+          "corrected_strict_loss_count": 1
+        }
+      }
+    },
+    "s1": {
+      "source_count": 648,
+      "selected_count": 648,
+      "completed_count": 648,
+      "baselines": {
+        "contiguous": {
+          "materially_changed_count": 1,
+          "improved_count": 1,
+          "worsened_count": 0,
+          "known_menu_changed_count": 0,
+          "old_loss": {
+            "count": 648,
+            "mean": 0.062253080996052076,
+            "median": 0.03015928899619092,
+            "p95": 0.1938103242284598,
+            "maximum": 0.3635245520039332,
+            "minimum": 0.0
+          },
+          "corrected_loss": {
+            "count": 648,
+            "mean": 0.06225284564548344,
+            "median": 0.03015928899619092,
+            "p95": 0.1938103242284598,
+            "maximum": 0.3635245520039333,
+            "minimum": -2.1344070583382955e-16
+          },
+          "profit_change": {
+            "count": 648,
+            "mean": 4.004847479165695e-05,
+            "median": 0.0,
+            "p95": 2.842170943040401e-14,
+            "maximum": 0.025951411665175783,
+            "minimum": -5.684341886080802e-14
+          },
+          "wall_seconds": {
+            "count": 648,
+            "mean": 0.043956580344164664,
+            "median": 0.040247584500320954,
+            "p95": 0.07297575414977472,
+            "maximum": 0.1262915779989271,
+            "minimum": 0.03130023199992138
+          },
+          "old_strict_loss_count": 473,
+          "corrected_strict_loss_count": 473
+        },
+        "greedy": {
+          "materially_changed_count": 0,
+          "improved_count": 0,
+          "worsened_count": 0,
+          "known_menu_changed_count": 0,
+          "old_loss": {
+            "count": 648,
+            "mean": 0.004643473646493997,
+            "median": 0.0,
+            "p95": 0.031033496788665904,
+            "maximum": 0.12514138971738087,
+            "minimum": 0.0
+          },
+          "corrected_loss": {
+            "count": 648,
+            "mean": 0.004643473646493997,
+            "median": 0.0,
+            "p95": 0.031033496788665904,
+            "maximum": 0.125141389717381,
+            "minimum": -3.6381854680876135e-16
+          },
+          "profit_change": {
+            "count": 648,
+            "mean": 1.3757856308240752e-16,
+            "median": 0.0,
+            "p95": 2.842170943040401e-14,
+            "maximum": 5.684341886080802e-14,
+            "minimum": -5.684341886080802e-14
+          },
+          "wall_seconds": {
+            "count": 648,
+            "mean": 0.04177170640735784,
+            "median": 0.04728271250041871,
+            "p95": 0.07796217324930693,
+            "maximum": 0.1269675069997902,
+            "minimum": 0.002422396999463672
+          },
+          "old_strict_loss_count": 138,
+          "corrected_strict_loss_count": 138
+        }
+      }
+    }
+  },
+  "violations": [],
+  "interpretation": "No detected numerical changes would not invalidate the semantic counterexample; the general implementation still required correction."
+}

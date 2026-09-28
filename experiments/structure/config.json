@@ -1,0 +1,73 @@
+{
+  "structure": {
+    "families": [
+      "balanced",
+      "access_skewed",
+      "correlated"
+    ],
+    "seed_base": 2027091000,
+    "cohorts": [
+      {
+        "M": 8,
+        "B": 4,
+        "K": 4,
+        "valuation_levels": 8,
+        "raw_records": 128,
+        "seeds_per_family": 200
+      },
+      {
+        "M": 12,
+        "B": 6,
+        "K": 6,
+        "valuation_levels": 10,
+        "raw_records": 512,
+        "seeds_per_family": 50
+      }
+    ]
+  },
+  "main": {
+    "M": 10,
+    "B": 5,
+    "K": 4,
+    "T": 12,
+    "N": 240,
+    "quality_shapes": [
+      "diminishing",
+      "linear",
+      "accelerating"
+    ],
+    "demand_shapes": [
+      "uniform",
+      "heavy_tail",
+      "bimodal",
+      "near_tie"
+    ],
+    "access_profiles": [
+      "balanced",
+      "restrictive",
+      "permissive"
+    ],
+    "cost_profiles": [
+      "activation_heavy",
+      "balanced",
+      "service_heavy"
+    ],
+    "seed_base": 2026092100,
+    "seed_offsets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "expected_instances": 648,
+    "baselines": [
+      "path",
+      "one_branch",
+      "contiguous",
+      "greedy_add_one"
+    ]
+  },
+  "note": "The legacy T generator field is the number of positive valuation levels. The paper threshold count includes zero."
+}

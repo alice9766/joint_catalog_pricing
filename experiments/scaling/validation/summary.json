@@ -1,0 +1,26 @@
+{
+  "N_raw_all_inputs": 960,
+  "certificate_replays": 42,
+  "complete_runs": 42,
+  "environment_count": 1,
+  "formal_inputs": 14,
+  "formal_runs": 42,
+  "input_regeneration_including_smoke": "15/15 byte-identical",
+  "main_N_eff_by_T": {
+    "20": 76,
+    "40": 156
+  },
+  "optimizer_calls": 0,
+  "status": "PASS",
+  "status_counts": {
+    "EXACT_COMPLETE": 42
+  },
+  "supplemental_N_eff": 234,
+  "supplemental_inputs": 2,
+  "supplemental_runs": 6,
+  "table_ii_inputs": 12,
+  "table_ii_rows_match": 6,
+  "table_ii_runs": 36,
+  "timing_scope": "End-to-end process wall time, including imports, input loading, solving, reconstruction, validation and certificate writing. RSS is actual peak resident memory, not the 4 GiB address-space limit.",
+  "verification_scope": "Independent exact replay of supplied menus, recovered prices, edge contributions and capacity-array consistency; not a second independent global optimization proof."
+}

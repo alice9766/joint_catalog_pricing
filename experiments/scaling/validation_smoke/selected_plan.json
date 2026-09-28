@@ -1,0 +1,34 @@
+{
+  "attempts": [
+    {
+      "B": 2,
+      "K": 2,
+      "M": 4,
+      "N_raw": 960,
+      "P": 4,
+      "T": 5,
+      "attempt_id": "P300--SMOKE-M04-B2-K2-independent-T5-smoke",
+      "case_id": "SMOKE-M04-B2-K2-independent-T5",
+      "ceilings": [
+        1,
+        3
+      ],
+      "cohort": "preflight_only",
+      "input_file": "inputs/SMOKE-M04-B2-K2-independent-T5.json",
+      "input_sha256": "1f333c00eb0c9bd06f27efd1f041a90f0326d9e654432acf06493330a9cf36f1",
+      "original_attempt_id": "SMOKE-M04-B2-K2-independent-T5-smoke",
+      "repetition": 0,
+      "total_weight": "120",
+      "workload": "independent"
+    }
+  ],
+  "limits": {
+    "cpu_threads": 1,
+    "parallel_workers": 1,
+    "per_attempt_wall_seconds": 300,
+    "per_worker_address_space_bytes": 4294967296,
+    "suite_wall_seconds": null,
+    "timeout_kill_grace_seconds": 1
+  },
+  "note": "New reproduction run; does not replace original recorded timing."
+}

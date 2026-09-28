@@ -1,0 +1,981 @@
+{
+  "source_root": "output/experiments_v1/performance",
+  "description": "Byte-for-byte selected original files. Absolute paths inside recorded metadata describe the original environment and are not used by reproduction entry points.",
+  "files": [
+    {
+      "path": "inputs/MAIN-M24-correlated-T40.json",
+      "source_path": "inputs/MAIN-M24-correlated-T40.json",
+      "sha256": "a11a60d5c03d762caa16265ab979a72da8169cef04ba7ea669bbeb8cc7be730a"
+    },
+    {
+      "path": "inputs/MAIN-M08-correlated-T40.json",
+      "source_path": "inputs/MAIN-M08-correlated-T40.json",
+      "sha256": "e96d3258ddfab0adf56dd5545db1b9e044ea6a1d67d530a323de9cb98199340f"
+    },
+    {
+      "path": "inputs/MAIN-M12-correlated-T20.json",
+      "source_path": "inputs/MAIN-M12-correlated-T20.json",
+      "sha256": "05bc6dc245ed38e224a26897ff0f7e4cba61cbb54d536cdda80faa1d772c7271"
+    },
+    {
+      "path": "inputs/MAIN-M08-correlated-T20.json",
+      "source_path": "inputs/MAIN-M08-correlated-T20.json",
+      "sha256": "72c5a8ea0a0814248edac62e5280dcbff85b4b3e3f3f281f0d7a7bb386ba3ee3"
+    },
+    {
+      "path": "inputs/MAIN-M24-independent-T40.json",
+      "source_path": "inputs/MAIN-M24-independent-T40.json",
+      "sha256": "05eacf2b30ce1a02d6faa9bf94e3762eb60ef9e4e2dd42dd7cd67381ce8e0029"
+    },
+    {
+      "path": "inputs/STRESS-M12-B6-K6-correlated-T40.json",
+      "source_path": "inputs/STRESS-M12-B6-K6-correlated-T40.json",
+      "sha256": "541ef67f10ecd80ee8859b3223ef2d56aa83888413539a692c27cdc67e8d8893"
+    },
+    {
+      "path": "inputs/MAIN-M08-independent-T20.json",
+      "source_path": "inputs/MAIN-M08-independent-T20.json",
+      "sha256": "4860f3862a6a50f0adfad721603ad4b7a8cb43f904a4d103a252e74a56dda55e"
+    },
+    {
+      "path": "inputs/MAIN-M08-independent-T40.json",
+      "source_path": "inputs/MAIN-M08-independent-T40.json",
+      "sha256": "d3d76982a009c25c0d7b4801a24b410be7a62a4f379f55c3d145d2827be6d102"
+    },
+    {
+      "path": "inputs/MAIN-M12-correlated-T40.json",
+      "source_path": "inputs/MAIN-M12-correlated-T40.json",
+      "sha256": "68e20d3632f634178555a47d9f91c9d8649d76ea594e910b60d5403fa246783d"
+    },
+    {
+      "path": "inputs/MAIN-M12-independent-T40.json",
+      "source_path": "inputs/MAIN-M12-independent-T40.json",
+      "sha256": "5fb49c863341d60e89f465e74823516485754c9b02d8127e2d133fa9b8eacb9c"
+    },
+    {
+      "path": "inputs/SMOKE-M04-B2-K2-independent-T5.json",
+      "source_path": "inputs/SMOKE-M04-B2-K2-independent-T5.json",
+      "sha256": "1f333c00eb0c9bd06f27efd1f041a90f0326d9e654432acf06493330a9cf36f1"
+    },
+    {
+      "path": "inputs/STRESS-M12-B6-K6-independent-T40.json",
+      "source_path": "inputs/STRESS-M12-B6-K6-independent-T40.json",
+      "sha256": "84956b7ed771b49d50d6b68948d8664309ee493cda398de679070dd869f12d7b"
+    },
+    {
+      "path": "inputs/MAIN-M24-independent-T20.json",
+      "source_path": "inputs/MAIN-M24-independent-T20.json",
+      "sha256": "b5a8f189c206cd06ceac9784d2002d9da63518a4afde36188ba83fc48fd631b4"
+    },
+    {
+      "path": "inputs/MAIN-M12-independent-T20.json",
+      "source_path": "inputs/MAIN-M12-independent-T20.json",
+      "sha256": "1fc7b8398d366db2e73fdc8d2dd30aa7892a56e814f3fd12e6a16682e3ecf927"
+    },
+    {
+      "path": "inputs/MAIN-M24-correlated-T20.json",
+      "source_path": "inputs/MAIN-M24-correlated-T20.json",
+      "sha256": "9bb7a4ba0acb44452c6612b43aff2e34df246b0af1c3f2e79a0858a04bd445b5"
+    },
+    {
+      "path": "protocol/protocol_frozen.json",
+      "source_path": "protocol/protocol_frozen.json",
+      "sha256": "5c931cea717a26f1350877b49186e257230e7c002ddcccacb7ec39057834d971"
+    },
+    {
+      "path": "protocol/plan.json",
+      "source_path": "protocol/plan.json",
+      "sha256": "4c4083ae292ba2000fb9a0ed56e5215fbb1fb8bc9e4978be37edad8e28a64d45"
+    },
+    {
+      "path": "protocol/input_audit.json",
+      "source_path": "protocol/input_audit.json",
+      "sha256": "3db44b4f430763960bdada88f9cd3e5425594dcfeb2d262e398536e4c9dbe491"
+    },
+    {
+      "path": "code/logic300.py",
+      "source_path": "code/logic300.py",
+      "sha256": "3b8f6f88a1bef80c8b3dc296486e08de2382e0473b535f6e9c836d52d984adcf"
+    },
+    {
+      "path": "code/run300.py",
+      "source_path": "code/run300.py",
+      "sha256": "f680e762f9bf714a6fdd45c479edbf92d9acfde457a09bd14da7a20aedfd6145"
+    },
+    {
+      "path": "code/t_scan_runner.py",
+      "source_path": "code/t_scan_runner.py",
+      "sha256": "dba92a75e566c678d413fbaefbe8e98170b26419066b69a704735a23818766c4"
+    },
+    {
+      "path": "code/t_scan_worker.py",
+      "source_path": "code/t_scan_worker.py",
+      "sha256": "1543347e1c338644e15f02eccc54bbf976ef0c8cc96b57a9889e84fadc1459fb"
+    },
+    {
+      "path": "code/input_generator.py",
+      "source_path": "archive_reference/code/build_scan_plan_legacy.py",
+      "sha256": "9ce6665af49ee9beb440defb2bcb3a884c311891d67ddcbc8079f10a59a82a5a"
+    },
+    {
+      "path": "vendor/persistent_hull_tree_dp.py",
+      "source_path": "vendor/persistent_hull_tree_dp.py",
+      "sha256": "ed856fa9a4a2eccf48b952c4eb1d15e1d5add3fae20fcec113f92f4057c78d06"
+    },
+    {
+      "path": "vendor/exact_srmd.py",
+      "source_path": "vendor/exact_srmd.py",
+      "sha256": "f86cea7c3bcaf68635388dbb71cd0b04b0fe7e0ce733135ccebe322bac53f3f9"
+    },
+    {
+      "path": "recorded/metadata.json",
+      "source_path": "runs/p300_formal_v1/metadata.json",
+      "sha256": "61cdb31ba4d0862b45e00a0dbe4b8520627e5b0d7d0fc8df94b81495d0d6e51a"
+    },
+    {
+      "path": "recorded/environment.json",
+      "source_path": "runs/p300_formal_v1/sessions/session-001/environment.json",
+      "sha256": "b88aca4e84e20d2ee309eed12f3a7360156d9a04c065eaf8ff56b07560e787c7"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r2/final.json",
+      "sha256": "8fa75c7bb9e4e5784edcae27be5b05d6159755d5a6e346e6de19349aa4f727e0"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r2/certificate.json",
+      "sha256": "e2b5979cc6ac190147ff1c3bf7dc24a10f5756cabb349f94c1f005348487a402"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r2/worker_result.json",
+      "sha256": "6e25532602e3837b5cec145401194f3c795f760864f66b37bbf7439087519acb"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r2/command.json",
+      "sha256": "8d5f8fb5ad55eb43b7f1e2adaee0c6014cfedc0f7c518a4a31a37f4690022285"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r1/final.json",
+      "sha256": "799be6b5b84802f8af0ca38dd2a8c28cb2f6ffae7d25bd08ca07092cad69d2b2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r1/certificate.json",
+      "sha256": "9cbb8b40324a9c58b5e931b4abea93faf4d36bd22c7c8419ff106efc183a2093"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r1/worker_result.json",
+      "sha256": "f6c36e7613760b2766a43c0451c883a08a8787a59f922ea0de5d2d842ce005ec"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r1/command.json",
+      "sha256": "18e907209e7e5c9beea09488b0538f28dfb05a405e1481fe1686045abf5464a1"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r3/final.json",
+      "sha256": "dc9cddf60c32fd2d2f204ff2cdd5166bfaf728aacc4678da5d3e706753917127"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r3/certificate.json",
+      "sha256": "33ac87aa908de9808321f85c4a1afb5aebbea4bb3a7fde8ec2bc68ef1641ad3c"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r3/worker_result.json",
+      "sha256": "916cb2c0ada15b7f9a343ec4fd7c3f513d02b4947f40faf77933efd99217c718"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r3/command.json",
+      "sha256": "63062013030cd957fb494cfd4f4547179a34853d24afb881e65c886c8d1455a2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r2/final.json",
+      "sha256": "fdaf5387088abde3d285299ffe3bb5a297e665b13c162408a2d6388653dc64fb"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r2/certificate.json",
+      "sha256": "1b3b55994ed07c13d69c76a4a42061a071c52fef563e9ce35acd95aa6f083b11"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r2/worker_result.json",
+      "sha256": "8622d7965a7e0235958d89b2043f2d1d217f8a5dfceffc9e4adbf32b36b81d17"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r2/command.json",
+      "sha256": "8c67c5db75cd543d4265a75d56457e3004f8708810973df3bcf0cd22d7d967c4"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r2/final.json",
+      "sha256": "2dc36def5d5c0ddf92989ab7d3166e02d1da172e98ddab10520de99867f09927"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r2/certificate.json",
+      "sha256": "fee796fad6000b65dcf85ab552a481a03def2d7b90e076a6936f7b3a15b99709"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r2/worker_result.json",
+      "sha256": "a94d58073e0e0e8bc04c5b9a7ef79d29cc9245355d7bd887b541ebe5aa5d16bf"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r2/command.json",
+      "sha256": "c8c71a42d44d425cb5b88bdc1c6a8314502bed8795004b1702cb280a49621bb4"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r2/final.json",
+      "sha256": "6689eb9175f526f1ec71a71e39c1415d5efcf2f34a5752a9236eeeda81af0d67"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r2/certificate.json",
+      "sha256": "cf39bcf05f30a4593920a1da3ed1a29452c345bb30cb970cac1c41d884141fc2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r2/worker_result.json",
+      "sha256": "57164562c32dd56709563e8d73831c895599dd644b9c52d543ac5ad2327dc27d"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r2/command.json",
+      "sha256": "ba8606c86800deeb8beed6952738c1b25b251fb024407f2b6b2ca867411eba2e"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r2/final.json",
+      "sha256": "3d89cf0bcbd5387ce841579e26f455777b22540ae14bb69c57f2edc132f4703d"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r2/certificate.json",
+      "sha256": "f0d8dcf1d753c454e6b6eff2a2fa3063a1118c56718e4ff73120d48c3785cbbd"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r2/worker_result.json",
+      "sha256": "d405a4b6ca0645d3b725a04798d4b027e443fd22917248a3af65452b513c46f4"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r2/command.json",
+      "sha256": "a21d85c080be38a6fb586cc918ffad3b09167699c90fd05c932b484f7c2235ab"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r3/final.json",
+      "sha256": "02670b88be994301719007e907cf5be0dcd476b83e434b932b11f6c37bc23155"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r3/certificate.json",
+      "sha256": "cf39bcf05f30a4593920a1da3ed1a29452c345bb30cb970cac1c41d884141fc2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r3/worker_result.json",
+      "sha256": "7125d3a30c986f0a7ee6e0fa764f38f02a067023912e244d3c8c73257d14f6a2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r3/command.json",
+      "sha256": "326031be2e2f8f6f938976caa015ee74acb99759c62df31429f10035a662d2ff"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r3/final.json",
+      "sha256": "acc5439a2fcc528b12d865403dee3df043264fe4ccca9ab5c477c64f9e923b20"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r3/certificate.json",
+      "sha256": "f5ef3b153e9548df838f2edcd87e54c7a1b4383ba885269f00781fbd9a38a5a6"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r3/worker_result.json",
+      "sha256": "5200a9701c86d599df7b251b542c8588077ede04c23ec31f54ff8b61fbbd14c2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r3/command.json",
+      "sha256": "9e87285cd9d40eb3bb4134df658801bbb43f0537f7d676c98b3210fc21f512a2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r3/final.json",
+      "sha256": "bf95da42e57412e95cb3aa391c44885fca5007a034b7aa6f3c158c4d14c3142d"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r3/certificate.json",
+      "sha256": "ffdaa0e3e43b2cf376e6aaba17285fd1eeeba3d23792fcef88ab6d6854a7eb78"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r3/worker_result.json",
+      "sha256": "059749dc65fedc28d2affb78796fe4053f9e86340cde20f8141ed4fb7a3ddec6"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r3/command.json",
+      "sha256": "09915fa6adf5fb5d890712b76e9a7f1be0e4be9a8cc108c5a4f867a24b358941"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r1/final.json",
+      "sha256": "193fde1c73f9c186b309e54bf53c519daf767c248253b498eaf41d802b61e0a3"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r1/certificate.json",
+      "sha256": "cf39bcf05f30a4593920a1da3ed1a29452c345bb30cb970cac1c41d884141fc2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r1/worker_result.json",
+      "sha256": "5fa154f5e106a56e70955bb0f277a567d48793a4b85ca65bc34ba06f55a766b3"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T40-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T40-r1/command.json",
+      "sha256": "3bb40da38b7cdbae174207bc7e28c577edee8e6615f3c6f45c26d37f525dcbac"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r1/final.json",
+      "sha256": "00913bfa034fa99a1d3952fdfc42c4820b0a7b744185e9765b128df3e92aef02"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r1/certificate.json",
+      "sha256": "fee796fad6000b65dcf85ab552a481a03def2d7b90e076a6936f7b3a15b99709"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r1/worker_result.json",
+      "sha256": "3cf2bd46ab708da21ce7830bf179636d1ebe786b1b61fe46acad8134724d9344"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r1/command.json",
+      "sha256": "b3786f2d9f7b8a7d94bcdf4dd6b53525c921ef0ccd2f07b006ae23a5e4bb4957"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r3/final.json",
+      "sha256": "b17ff603c4ea68f0eb40f28524b6ed2e11e50fa61c32b23936aaa6b9ebc26daa"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r3/certificate.json",
+      "sha256": "e2b5979cc6ac190147ff1c3bf7dc24a10f5756cabb349f94c1f005348487a402"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r3/worker_result.json",
+      "sha256": "8c85c16ad3ebe16e445eeb632b579ee968930fb1b1a09466b3ae5762323a1601"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r3/command.json",
+      "sha256": "bb4c6f921d50bec6dd8d1e5b2e3f997193f86db9e97476ca0854990120cdbb80"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r2/final.json",
+      "sha256": "d2d1420b46351f8bba54f86227ac96b225587619c7420aa1d19eeefee048ba79"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r2/certificate.json",
+      "sha256": "a2e35297bb03ce17f6e49149ef75ab489a0813d05d973ddc2212e8ad80e6dfdd"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r2/worker_result.json",
+      "sha256": "1b2a05bd7d991a5aa5c37a063bc0ba7af3982c606b4da8a876fe9d1bfca8ac5d"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r2/command.json",
+      "sha256": "7da246e915d6e186885c9d4d56ab00b774ffc379c4fe613824cb4452a8bb1826"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r3/final.json",
+      "sha256": "b1053bdfe6247d1ff224d0bd96dfd9285d2ce5dec4bc853ee08e95e3a1e8243b"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r3/certificate.json",
+      "sha256": "75026ffd579a09e02eb5bfca6a1802d6e973ea613c98540876e1797e9abea170"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r3/worker_result.json",
+      "sha256": "77ec7c2d54e18efca91fcb04a73b35d0d992cf2bfe0eeea48475a7d06df8bcd4"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r3/command.json",
+      "sha256": "ac653397781fb98fe782ed41139b6e7acbe74a315731dcc270692772456646c7"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r1/final.json",
+      "sha256": "22072bbcc1fa4961f0b7513f39ca0afeb72ec8c1b195499176f614d17efa4545"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r1/certificate.json",
+      "sha256": "8d9fd5ff14da92b73c2d7230a9308b1a1f0e0b026943924b5485c9cb044df6d4"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r1/worker_result.json",
+      "sha256": "9d7dea34b898456284580aa1d54e0e5c753dfcaaa0646d1c436ebdeae8b4f54b"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r1/command.json",
+      "sha256": "a3df2f0f8bd37b1a31d437d03fb1f24c5db19703ce9cb545b760795401b362b2"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r3/final.json",
+      "sha256": "52e301970b386401e445bb62ea839a686b075c9045a7ab38f7ec7fdebe6ab720"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r3/certificate.json",
+      "sha256": "f0d8dcf1d753c454e6b6eff2a2fa3063a1118c56718e4ff73120d48c3785cbbd"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r3/worker_result.json",
+      "sha256": "1f4751eea1db758d3ecb8dcbcb04a22b63360d1542d0b78e873455eb8b8ac8af"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r3/command.json",
+      "sha256": "bb7f111b29504891185493b75876c754afb8d46c6f7800d2e0fbc0ddad4dde5a"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r2/final.json",
+      "sha256": "25cbcfc80818f88e2486b3e4ab21af1ea3411bcbf76a78bd3d30245827bf4456"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r2/certificate.json",
+      "sha256": "9cbb8b40324a9c58b5e931b4abea93faf4d36bd22c7c8419ff106efc183a2093"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r2/worker_result.json",
+      "sha256": "1f6a356ab76e8c1a4a1fb0bae90b4c0cd6125ea5da472f38793dc18e17097fe4"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r2/command.json",
+      "sha256": "52fc319129ddb24de78e9e1157bbcbebc010e57839b9452bba309df96e87598a"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r3/final.json",
+      "sha256": "b2c3e5d1846dd67b0ac365c937c5fb9d3a63a241f77b381937ffa57544173135"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r3/certificate.json",
+      "sha256": "e56a64c4c5208df4d46bfc986888df73608c4603b88fdf9e5a9d987f72148938"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r3/worker_result.json",
+      "sha256": "b50ca13319b80a0beccbd959213352af5c506eef82b2182e959ce12651fbdb2b"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r3/command.json",
+      "sha256": "26f5c5188302afe265f243009446345dee216afb86e5585aebb3d5e8b732a81f"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r2/final.json",
+      "sha256": "83732a3a3dcf8b71c841c7a15aab94cc8efdcdb67da00887c9a2cdde4ce89985"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r2/certificate.json",
+      "sha256": "f5ef3b153e9548df838f2edcd87e54c7a1b4383ba885269f00781fbd9a38a5a6"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r2/worker_result.json",
+      "sha256": "145793a8d283aeb91fc55088ccd30645d3166481ca9463c6075d85c5562f0624"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r2/command.json",
+      "sha256": "c59b09f59be258b402e95e08bc4cb3da7661849c036dbc1dde9fd60c65551231"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r2/final.json",
+      "sha256": "b92940d9fe8418ff079f9b212cda6e6248d709510f306d836a88d9c8c0924bf3"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r2/certificate.json",
+      "sha256": "44c3067b17d30d65fd7557e994ad7c4bf21a87b3936ba6a810c02d8e9363d915"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r2/worker_result.json",
+      "sha256": "2954f09a8bbc7cef75504ecb17087aaab97fde985c4719dee962526cc869643b"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r2/command.json",
+      "sha256": "ec0d7583dd4a0215624652ed049f3320506e701d16c7c72d03e22ce12833e2c0"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r3/final.json",
+      "sha256": "2b1ca186bfb2f90cb5fcdc87ff39541dc3e54550b53e514e14d8b220e7cb00a8"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r3/certificate.json",
+      "sha256": "a2e35297bb03ce17f6e49149ef75ab489a0813d05d973ddc2212e8ad80e6dfdd"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r3/worker_result.json",
+      "sha256": "bc48bedb75ef11d1e719e3ca0ac8d155238c3184886079256a156df7d6514cd5"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r3/command.json",
+      "sha256": "3ab3c8302c6bc5d885dd1807a8043b2768bdc0e342932436fd9a6146c544a5b6"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r1/final.json",
+      "sha256": "ce317b728b2711791b70b19cdfc213e6aa9f46c3972ed6a08a196882f8cbd422"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r1/certificate.json",
+      "sha256": "a2e35297bb03ce17f6e49149ef75ab489a0813d05d973ddc2212e8ad80e6dfdd"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r1/worker_result.json",
+      "sha256": "4537a83ef4a2a28ee1ec1b4ba5940c5cabc5fa310fe7f52515c816781454191f"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T20-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T20-r1/command.json",
+      "sha256": "e30affc71d724f3cef5eb00fea8323f2515b687d21803fe5849a9419b2af22b7"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r2/final.json",
+      "sha256": "6ee76e51e35dda6a1e8c16cf033faa7fe8eaabd4b80695d01e1fcb306ff16ac3"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r2/certificate.json",
+      "sha256": "e56a64c4c5208df4d46bfc986888df73608c4603b88fdf9e5a9d987f72148938"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r2/worker_result.json",
+      "sha256": "21c99e5c202da5c9acd364a51864462256ad3d5e9aa20f7550fb4bf4a8e34f75"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r2/command.json",
+      "sha256": "06fd39a936495e1ce8155d7e5e19ab747b01528d773e7ba025933bbd4b3be05f"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r3/final.json",
+      "sha256": "3d8cfbdb48089426daabfaa84193c09d72b2a3dd6f1d49c8c8b24c9b51a8641f"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r3/certificate.json",
+      "sha256": "9cbb8b40324a9c58b5e931b4abea93faf4d36bd22c7c8419ff106efc183a2093"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r3/worker_result.json",
+      "sha256": "542531fcd963907e8a54d6e56ff8399ded3f4ea5b537b0bab0e2e61a452445f6"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T40-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T40-r3/command.json",
+      "sha256": "1f3863134d528f81f81ddb182609f8bfe7e2cbd80e19bee8eba6421bfd3ed6e2"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r2/final.json",
+      "sha256": "a534c1b91af5d127f0f21984ed6daf555383b87eb9488ba6c13e81324675c5f8"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r2/certificate.json",
+      "sha256": "33ac87aa908de9808321f85c4a1afb5aebbea4bb3a7fde8ec2bc68ef1641ad3c"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r2/worker_result.json",
+      "sha256": "2ea706a52dc8b3036e11552ac9e368ec5f50b87e542a165f1c451a2d66045998"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r2/command.json",
+      "sha256": "0c11107e1e0bfe6e63cb1c3b8d529f8089920a4eeaaf6c30ee671e4a328046b6"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r1/final.json",
+      "sha256": "318e3588ba3bda3f5a6a793ecaa52ac5cf73085a0291b01472d72a47ac61ebf1"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r1/certificate.json",
+      "sha256": "33ac87aa908de9808321f85c4a1afb5aebbea4bb3a7fde8ec2bc68ef1641ad3c"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r1/worker_result.json",
+      "sha256": "a959cd332c043afae752d4be159e72c7d325c9e6a62f6bc4abc0cddf9532ec26"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-correlated-T20-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-correlated-T20-r1/command.json",
+      "sha256": "b19ff14cde4ef0aa4f8ef191a9b7a700462af34379167ae47cfb7a40bda211db"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r1/final.json",
+      "sha256": "08209d8ab41e510afbd6f4424698ff56c6866a555c84a4a32898cd834efd8134"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r1/certificate.json",
+      "sha256": "44c3067b17d30d65fd7557e994ad7c4bf21a87b3936ba6a810c02d8e9363d915"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r1/worker_result.json",
+      "sha256": "1b262a186c421b503e9b2902911ba592aec4cfe51f36aa5d93b02d38e56db867"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r1/command.json",
+      "sha256": "f672e53b5af6c0e3bb729c8b9bcc595643c41dbeca3e71a13145b641c34d82f4"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r1/final.json",
+      "sha256": "ba4b835abfb4438a629da2240e5ea7974dbbda0898846b6de7b08a2adffbde12"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r1/certificate.json",
+      "sha256": "f5ef3b153e9548df838f2edcd87e54c7a1b4383ba885269f00781fbd9a38a5a6"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r1/worker_result.json",
+      "sha256": "27a611a6f051845a66aa9a7dd7b4ff75eba25a04e3a9f88f380802feebb99f81"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T40-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T40-r1/command.json",
+      "sha256": "2af2f63b7ef629732d80ce7f3260fda8daeb2f75ece54ddc2c0a893682df3159"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r1/final.json",
+      "sha256": "1326622660acedfae28327180f4762fb6238df4d2e5c4aa98c09f9c05be4e549"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r1/certificate.json",
+      "sha256": "75026ffd579a09e02eb5bfca6a1802d6e973ea613c98540876e1797e9abea170"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r1/worker_result.json",
+      "sha256": "66b161bfbd976c8e13110b419a1fb239ddd2f5d035bf10d1d4ef1850b418b395"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r1/command.json",
+      "sha256": "f3648ea9e73681d5e199b3af358328dfa5278d7c4a326f67e802c5d8ef542a1a"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r2/final.json",
+      "sha256": "4a4af3347a8bd9939384f0ba368f553bdfcf23caf4f73808328dfa52476f7979"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r2/certificate.json",
+      "sha256": "8d9fd5ff14da92b73c2d7230a9308b1a1f0e0b026943924b5485c9cb044df6d4"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r2/worker_result.json",
+      "sha256": "cc214b03a1364f2ac6351f68afab852d446ff717cead568e73232358eb0407c6"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r2/command.json",
+      "sha256": "247e9713fe6a88c5e4c011fd733439274c5b2db41aa0a6d70427f8f088673b70"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r1/final.json",
+      "sha256": "dbb60e38df0bbdf44fbd4213bf37b9fe5c1e2957852b6a3af4c4ba724f9996ba"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r1/certificate.json",
+      "sha256": "f0d8dcf1d753c454e6b6eff2a2fa3063a1118c56718e4ff73120d48c3785cbbd"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r1/worker_result.json",
+      "sha256": "16805a8d2788d3aaba07fd2d530e5d53c1df32d9007eccea44115c80ea26f199"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-correlated-T40-r1/command.json",
+      "sha256": "46df2ea56c07899279e237379966326e24d3653be28c8f9b0b04ea3bb65e2e0b"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r1/final.json",
+      "sha256": "d0f7df35825ad2604fb95e598f968be777e603d43b53f22189e969882b2d78ab"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r1/certificate.json",
+      "sha256": "e2b5979cc6ac190147ff1c3bf7dc24a10f5756cabb349f94c1f005348487a402"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r1/worker_result.json",
+      "sha256": "be537199b0827ba35267aad9a8039588de1898bbec426c17cd97f0849a20a92d"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M08-independent-T20-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M08-independent-T20-r1/command.json",
+      "sha256": "3eec5f070a55b4311589dd36e79acbae124067581dfac20679db9881def26f2b"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r1/final.json",
+      "sha256": "83ff43f26a7c1d02fc04ebc1e292bbb888a1f4bf176e5e8ce16eda940e8642fa"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r1/certificate.json",
+      "sha256": "e56a64c4c5208df4d46bfc986888df73608c4603b88fdf9e5a9d987f72148938"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r1/worker_result.json",
+      "sha256": "79a293b44d8b1fe13c2f6fbcc3e07da2f9396bad13436c91e7fdf3c02c2be981"
+    },
+    {
+      "path": "recorded/attempts/P300--STRESS-M12-B6-K6-independent-T40-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--STRESS-M12-B6-K6-independent-T40-r1/command.json",
+      "sha256": "65a4a5404904faf1e9078b1c5550163effad007526ea561ad35ea1ff7852ad51"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r3/final.json",
+      "sha256": "0708677bb1a0a203ad9dd535c3ff6dd5274375dc2a3743f895487c0723f1b920"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r3/certificate.json",
+      "sha256": "1b3b55994ed07c13d69c76a4a42061a071c52fef563e9ce35acd95aa6f083b11"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r3/worker_result.json",
+      "sha256": "6142db1583d20d7bd8e7f56a5fdc49c6cc3d7f42ca15f3355f6f759c7e157e84"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r3/command.json",
+      "sha256": "ffeb036c138ef7463be6c9865048fbc669c3bfbe7343107b6afb0f8fe1da40ec"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r2/final.json",
+      "sha256": "623667bb606ddfc927968c11f63da88496495093ac122e4a387b7b6f3e47eb5d"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r2/certificate.json",
+      "sha256": "ffdaa0e3e43b2cf376e6aaba17285fd1eeeba3d23792fcef88ab6d6854a7eb78"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r2/worker_result.json",
+      "sha256": "efc94f9aa7a6ae3a624dedb60a33322e090d26c270bead7cc8b691b1fd228758"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r2/command.json",
+      "sha256": "0eaa9b28f9ddc1774c43f8aff005befa5eee5272bb29cd9e9ff77de11920cddd"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r2/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r2/final.json",
+      "sha256": "96875a0c363bf2574fbdfdd3720f7618bc4dc9e937a01db5330fb3ffd888f4c9"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r2/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r2/certificate.json",
+      "sha256": "75026ffd579a09e02eb5bfca6a1802d6e973ea613c98540876e1797e9abea170"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r2/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r2/worker_result.json",
+      "sha256": "63034fde7b97bb6dc42f01bfe865eca59c615584e17476c7cedb76578ff59435"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-correlated-T40-r2/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-correlated-T40-r2/command.json",
+      "sha256": "8472a62f6e10f9f9941f7fcd11002802df66f7fc3e5218f37db940c97ff80dea"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r3/final.json",
+      "sha256": "323f5890d714345d785087ff95e358b6ac6535e5bab8db82d10fa17502c9b30d"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r3/certificate.json",
+      "sha256": "44c3067b17d30d65fd7557e994ad7c4bf21a87b3936ba6a810c02d8e9363d915"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r3/worker_result.json",
+      "sha256": "c26e70d47f33f0143217ced4c8f8e86ef3d0abb15536db53dc755767f538db9a"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T20-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T20-r3/command.json",
+      "sha256": "be713dccee63b4a2ea59f19d62ef095aa5b1445bb5f1e3f0c16887d83e2e4f04"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r3/final.json",
+      "sha256": "ff1d0fc578ed280ea65f85615a39179a4b4a614a661ab27ce7e002f6d8a34426"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r3/certificate.json",
+      "sha256": "fee796fad6000b65dcf85ab552a481a03def2d7b90e076a6936f7b3a15b99709"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r3/worker_result.json",
+      "sha256": "4d7067d73a9dc3e6d2e5d846e8160103f45c7dce9c9f45c81c8b2872c8f0d52a"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T40-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T40-r3/command.json",
+      "sha256": "ecdde5da6012676bf6393b22377338547de94cd988c8b02e44267b58d61bd532"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r3/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r3/final.json",
+      "sha256": "316bd281d550418a617dca66314ddb99dfdf3e3d37ce5aab3abff805fdf0fe75"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r3/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r3/certificate.json",
+      "sha256": "8d9fd5ff14da92b73c2d7230a9308b1a1f0e0b026943924b5485c9cb044df6d4"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r3/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r3/worker_result.json",
+      "sha256": "06b36bd2f0465045412bc7c25d1f2af6aa407e0b465072fbab0776c7d90c171f"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-correlated-T40-r3/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-correlated-T40-r3/command.json",
+      "sha256": "3e046cc86b5377af1ea19b753658a1115d795839e741f9631d23e56bce5ce644"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r1/final.json",
+      "sha256": "929c72d483510aebff4af63196f886924c088c4cee7cfa930e7fd64a0d1e943f"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r1/certificate.json",
+      "sha256": "1b3b55994ed07c13d69c76a4a42061a071c52fef563e9ce35acd95aa6f083b11"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r1/worker_result.json",
+      "sha256": "d85a82ce4cd0a8d09007cb6ce41d06e8a451cff0f5e662c694164dbf2bac3b12"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M24-independent-T20-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M24-independent-T20-r1/command.json",
+      "sha256": "f42fa5a20d59b3ee4c1a3bd63dbdc6f1ab7748eedcef61f83d63bde738f10721"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r1/final.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r1/final.json",
+      "sha256": "35ce00789801c1867ba3edfd1f6bfcc04f7f2c1d04c2e02e102c851d9fe54138"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r1/certificate.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r1/certificate.json",
+      "sha256": "ffdaa0e3e43b2cf376e6aaba17285fd1eeeba3d23792fcef88ab6d6854a7eb78"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r1/worker_result.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r1/worker_result.json",
+      "sha256": "f71de452c507800cc6ceb9a2b188b0579faf13add92c5687605c3c64dd07b2d0"
+    },
+    {
+      "path": "recorded/attempts/P300--MAIN-M12-independent-T20-r1/command.json",
+      "source_path": "runs/p300_formal_v1/attempts/P300--MAIN-M12-independent-T20-r1/command.json",
+      "sha256": "a9717eb31e7737b418bc9dc90da2405e7ad79afe849f257e8ba5040b4524f67c"
+    }
+  ]
+}

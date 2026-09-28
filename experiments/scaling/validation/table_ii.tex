@@ -1,0 +1,30 @@
+% CN/EN-V-v0.3; freeze F-EVALUATION-COMPACT-20260928.
+\begin{table}[tb]
+\centering
+\caption{Joint scaling of contract and threshold counts}
+\label{tab:joint-scale}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}rrrrr@{}}
+\toprule
+$M$ & $T$ & \shortstack{Independent\\time (s)} &
+\shortstack{Positively correlated\\time (s)} & \shortstack{Peak RSS\\(MiB)} \\
+\midrule
+8 & 20 & 0.355 & 0.355 & 25.492 \\
+8 & 40 & 1.626 & 1.537 & 43.379 \\
+12 & 20 & 1.134 & 1.158 & 42.809 \\
+12 & 40 & 6.011 & 6.105 & 99.953 \\
+24 & 20 & 11.561 & 12.052 & 204.293 \\
+24 & 40 & 67.252 & 67.899 & 650.926 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{2pt}
+\begin{minipage}{\columnwidth}
+\footnotesize
+$B=K=4$. Time is the median end-to-end wall-clock time of
+three runs for each input.
+RSS is the maximum across the six runs of both configurations
+in each row.
+\end{minipage}
+\end{table}

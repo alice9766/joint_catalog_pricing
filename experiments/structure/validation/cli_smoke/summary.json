@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "instances": 1,
+  "method_calls": 5,
+  "additional_fixed_catalog_replays": 2,
+  "methods": [
+    "full",
+    "path",
+    "one_branch",
+    "contiguous",
+    "greedy",
+    "capacity"
+  ],
+  "elapsed_seconds": 0.31783088299562223,
+  "scope": "Only selected instances re-solved; every listed comparison uses the corrected archived reference."
+}

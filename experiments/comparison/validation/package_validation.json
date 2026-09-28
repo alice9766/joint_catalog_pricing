@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "verification_script": "scripts/verify_comparison.py",
+  "solver_entry": "scripts/solve_comparison.py",
+  "validation_runs": {
+    "smoke_current": {
+      "summary": {
+        "all_methods_numerically_complete": true,
+        "elapsed_seconds": 1.0062368529979722,
+        "observed_results_overwritten": false,
+        "recorded_attempts": 3,
+        "selected_attempts": 3,
+        "smoke": true,
+        "solver_calls": 3,
+        "status": "COMPLETE",
+        "status_counts": {
+          "NUMERIC_COMPLETE": 3
+        }
+      },
+      "profits": {
+        "PHT_FLOAT": 10.0,
+        "GREEDY_FLOAT": 10.0,
+        "MILP_FLOAT": 9.999999999999979
+      },
+      "environment": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0"
+      }
+    },
+    "one_input_current": {
+      "summary": {
+        "all_methods_numerically_complete": true,
+        "elapsed_seconds": 5.705014751998533,
+        "observed_results_overwritten": false,
+        "recorded_attempts": 3,
+        "selected_attempts": 3,
+        "smoke": false,
+        "solver_calls": 3,
+        "status": "COMPLETE",
+        "status_counts": {
+          "NUMERIC_COMPLETE": 3
+        }
+      },
+      "profits": {
+        "PHT_FLOAT": 3993.0,
+        "GREEDY_FLOAT": 3993.0,
+        "MILP_FLOAT": 3993.0000000000236
+      },
+      "environment": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0"
+      }
+    }
+  },
+  "original_observations_changed": false,
+  "source_snapshot_changed": false,
+  "scope": "Current verification and wrapper smoke runs only. All 162 original observations retained unchanged. Full original batch not rerun."
+}

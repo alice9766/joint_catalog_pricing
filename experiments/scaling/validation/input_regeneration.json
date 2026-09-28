@@ -1,0 +1,80 @@
+{
+  "checks": [
+    {
+      "case_id": "MAIN-M08-independent-T20",
+      "sha256": "4860f3862a6a50f0adfad721603ad4b7a8cb43f904a4d103a252e74a56dda55e",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M08-correlated-T20",
+      "sha256": "72c5a8ea0a0814248edac62e5280dcbff85b4b3e3f3f281f0d7a7bb386ba3ee3",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M12-independent-T20",
+      "sha256": "1fc7b8398d366db2e73fdc8d2dd30aa7892a56e814f3fd12e6a16682e3ecf927",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M12-correlated-T20",
+      "sha256": "05bc6dc245ed38e224a26897ff0f7e4cba61cbb54d536cdda80faa1d772c7271",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M24-independent-T20",
+      "sha256": "b5a8f189c206cd06ceac9784d2002d9da63518a4afde36188ba83fc48fd631b4",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M24-correlated-T20",
+      "sha256": "9bb7a4ba0acb44452c6612b43aff2e34df246b0af1c3f2e79a0858a04bd445b5",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M08-independent-T40",
+      "sha256": "d3d76982a009c25c0d7b4801a24b410be7a62a4f379f55c3d145d2827be6d102",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M08-correlated-T40",
+      "sha256": "e96d3258ddfab0adf56dd5545db1b9e044ea6a1d67d530a323de9cb98199340f",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M12-independent-T40",
+      "sha256": "5fb49c863341d60e89f465e74823516485754c9b02d8127e2d133fa9b8eacb9c",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M12-correlated-T40",
+      "sha256": "68e20d3632f634178555a47d9f91c9d8649d76ea594e910b60d5403fa246783d",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M24-independent-T40",
+      "sha256": "05eacf2b30ce1a02d6faa9bf94e3762eb60ef9e4e2dd42dd7cd67381ce8e0029",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "MAIN-M24-correlated-T40",
+      "sha256": "a11a60d5c03d762caa16265ab979a72da8169cef04ba7ea669bbeb8cc7be730a",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "STRESS-M12-B6-K6-independent-T40",
+      "sha256": "84956b7ed771b49d50d6b68948d8664309ee493cda398de679070dd869f12d7b",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "STRESS-M12-B6-K6-correlated-T40",
+      "sha256": "541ef67f10ecd80ee8859b3223ef2d56aa83888413539a692c27cdc67e8d8893",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "case_id": "SMOKE-M04-B2-K2-independent-T5",
+      "sha256": "1f333c00eb0c9bd06f27efd1f041a90f0326d9e654432acf06493330a9cf36f1",
+      "status": "BYTE_IDENTICAL"
+    }
+  ],
+  "status": "PASS"
+}

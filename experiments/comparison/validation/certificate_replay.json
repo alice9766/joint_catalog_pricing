@@ -1,0 +1,1360 @@
+{
+  "status": "PASS",
+  "solver_calls": 0,
+  "protocol_sha256": "866047ea90ebee7fe2d8afdbac26e727132639e9bf45eff39f0c2be267521df1",
+  "ledger_sha256": "608d1e5938e386ceab6ff896007e980a4f218cd118bcce80d7ac83174022ea9d",
+  "scope": "Completed 162-row ledger, immutable source/input hashes, all returned certificates and common numerical replay, Greedy candidate trace, independent time/quality aggregation; no optimization or mathematical proof audit",
+  "ledger_rows": 162,
+  "status_counts": {
+    "NUMERIC_COMPLETE": 126,
+    "SOLVER_NONOPTIMAL": 15,
+    "SOLVER_NONOPTIMAL_REPLAY_MISMATCH": 21
+  },
+  "certificate_count": 162,
+  "common_replay_count": 162,
+  "greedy_trace_count": 54,
+  "errors": [],
+  "flags": [],
+  "cells": [
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091000",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        6238.0,
+        6238.0,
+        6238.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.01742149099936796
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091000",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        6238.0,
+        6238.0,
+        6238.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.016148472000168113
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091000",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        5879.000000000004,
+        5879.000000000004,
+        5879.000000000004
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091001",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        7948.0,
+        7948.0,
+        7948.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.016863832000126422
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091001",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        7948.0,
+        7948.0,
+        7948.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.0195598569998765
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091001",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        7828.0000000000055,
+        7828.0000000000055,
+        7828.0000000000055
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091002",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        6249.5,
+        6249.5,
+        6249.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.016781827999693633
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091002",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        6249.5,
+        6249.5,
+        6249.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.015520173999902909
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091002",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        6249.5,
+        6249.5,
+        6249.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091000",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        45589.5,
+        45589.5,
+        45589.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.3407087309997223
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091000",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        45589.5,
+        45589.5,
+        45589.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.23151063499972224
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091000",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        30330.0,
+        30330.0,
+        30330.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091001",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        44387.0,
+        44387.0,
+        44387.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.34276251299979776
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091001",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        44387.0,
+        44387.0,
+        44387.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.219910112999969
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091001",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        31109.0,
+        31109.0,
+        31109.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091002",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        42679.5,
+        42679.5,
+        42679.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.34561282100003154
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091002",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        42679.5,
+        42679.5,
+        42679.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.22995528699993883
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091002",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        37279.0,
+        37279.0,
+        37279.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091000",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        3993.0,
+        3993.0,
+        3993.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.013419588999568077
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091000",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        3993.0,
+        3993.0,
+        3993.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.0165673550000065
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091000",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        3993.0000000000236,
+        3993.0000000000236,
+        3993.0000000000236
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 5.097112100999766
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091001",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        3768.0,
+        3768.0,
+        3768.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.013527463999707834
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091001",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        3768.0,
+        3768.0,
+        3768.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.01531761899968842
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091001",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        3768.0000000000045,
+        3768.0000000000045,
+        3768.0000000000045
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 7.399024108999583
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091002",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        4144.5,
+        4144.5,
+        4144.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.012752470999657817
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091002",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        4144.5,
+        4144.5,
+        4144.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.015342777000114438
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091002",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        4144.499999999996,
+        4144.499999999996,
+        4144.499999999996
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 14.537442720999934
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091000",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        22522.5,
+        22522.5,
+        22522.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.2565184570003112
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091000",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        22522.5,
+        22522.5,
+        22522.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.2262809659996492
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091000",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        20761.500000000357,
+        20761.500000000357,
+        20761.500000000357
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091001",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        22657.0,
+        22657.0,
+        22657.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.24814427199999045
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091001",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        22657.0,
+        22657.0,
+        22657.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.21579290499994386
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091001",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        19906.499999999993,
+        19906.499999999993,
+        19906.499999999993
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091002",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        26483.0,
+        26483.0,
+        26483.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.2694197629998598
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091002",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        26483.0,
+        26483.0,
+        26483.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.2562179790002119
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091002",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        21227.0,
+        21227.0,
+        21227.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091000",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        5160.166666666667,
+        5160.166666666667,
+        5160.166666666667
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.016414164000707387
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091000",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        5160.166666666667,
+        5160.166666666667,
+        5160.166666666667
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.01866213300036179
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091000",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        5160.166666666667,
+        5160.166666666667,
+        5160.166666666667
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 7.3651691000004575
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091001",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        10928.5,
+        10928.5,
+        10928.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.017602646000341338
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091001",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        10928.5,
+        10928.5,
+        10928.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.01570181999977649
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091001",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        10928.5,
+        10928.5,
+        10928.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 10.863857289999942
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091002",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        10165.166666666666,
+        10165.166666666666,
+        10165.166666666666
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.016392841000197222
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091002",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        10165.166666666666,
+        10165.166666666666,
+        10165.166666666666
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.015828189999410824
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091002",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        10165.166666666668,
+        10165.166666666668,
+        10165.166666666668
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 17.10926449500039
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091000",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        41674.333333333336,
+        41674.333333333336,
+        41674.333333333336
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.3621032050004942
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091000",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        41674.333333333336,
+        41674.333333333336,
+        41674.333333333336
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.09154155900068872
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091000",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        40043.5,
+        40043.5,
+        40043.5
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091001",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        71133.33333333333,
+        71133.33333333333,
+        71133.33333333333
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.343586683000467
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091001",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        71133.33333333333,
+        71133.33333333333,
+        71133.33333333333
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.09367271799965238
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091001",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH",
+        "SOLVER_NONOPTIMAL_REPLAY_MISMATCH"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        64596.0,
+        64596.0,
+        64596.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091002",
+      "algorithm": "PHT_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        75044.0,
+        75044.0,
+        75044.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.3400805549999859
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091002",
+      "algorithm": "GREEDY_FLOAT",
+      "statuses": [
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE",
+        "NUMERIC_COMPLETE"
+      ],
+      "all_three_complete": true,
+      "common_profit_values": [
+        75044.0,
+        75044.0,
+        75044.0
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": 0.20687361199998122
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091002",
+      "algorithm": "MILP_FLOAT",
+      "statuses": [
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL",
+        "SOLVER_NONOPTIMAL"
+      ],
+      "all_three_complete": false,
+      "common_profit_values": [
+        65601.33333333333,
+        65601.33333333333,
+        65601.33333333333
+      ],
+      "objectives_stable": true,
+      "menus_stable": true,
+      "prices_stable_exact_float": true,
+      "time_median": null
+    }
+  ],
+  "comparisons": [
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091000",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.9269282405710262,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091001",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 1.1598702477426168,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "balanced-m8-b4-k4-T9-s2027091002",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.924820228176945,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091000",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.6794972184023982,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091001",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.641581575170966,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "balanced-m12-b6-k6-T11-s2027091002",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.665355198150817,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091000",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 1.234565007955142,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": true,
+      "MILP_over_PHT_time_ratio": 379.82624513789665
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091001",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 1.1323348559655564,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": true,
+      "MILP_over_PHT_time_ratio": 546.963134343539
+    },
+    {
+      "case_id": "access_skewed-m8-b4-k4-T9-s2027091002",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 1.2031218891245568,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": true,
+      "MILP_over_PHT_time_ratio": 1139.970655207921
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091000",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.8821235268828033,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091001",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.8696267830834804,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "access_skewed-m12-b6-k6-T11-s2027091002",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.9509991997147783,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091000",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 1.1369529998334076,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": true,
+      "MILP_over_PHT_time_ratio": 448.7081461890503
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091001",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.8920147572968298,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": true,
+      "MILP_over_PHT_time_ratio": 617.1718325636542
+    },
+    {
+      "case_id": "correlated-m8-b4-k4-T9-s2027091002",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.9655550248563013,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": true,
+      "MILP_over_PHT_time_ratio": 1043.7034370549038
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091000",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.2528051608948443,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091001",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.2726319809069115,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    },
+    {
+      "case_id": "correlated-m12-b6-k6-T11-s2027091002",
+      "PHT_GREEDY_eligible": true,
+      "Greedy_over_PHT_time_ratio": 0.6083076758093088,
+      "normalized_loss_by_repeat": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objectives_match_by_repeat": [
+        true,
+        true,
+        true
+      ],
+      "PHT_MILP_optimal_speed_eligible": false,
+      "MILP_over_PHT_time_ratio": null
+    }
+  ],
+  "flags_interpretation": "Flags are descriptive, not audit errors. Time-limited MILP incumbents may vary; objective instability in the primary deterministic methods requires explicit investigation.",
+  "primary_eligible_inputs": 18,
+  "primary_ratio_median": 0.9084174927368873,
+  "primary_ratio_min": 0.2528051608948443,
+  "primary_ratio_max": 1.234565007955142,
+  "secondary_optimal_eligible_inputs": 6
+}

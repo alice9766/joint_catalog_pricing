@@ -1,0 +1,65 @@
+[
+  {
+    "absolute_gap_to_full_pht": "0",
+    "method": "FULL_PHT_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-negative",
+    "status": "COMPLETED_VERIFIED"
+  },
+  {
+    "absolute_gap_to_full_pht": "0",
+    "method": "GREEDY_ADD_ONE_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-negative",
+    "status": "COMPLETED_VERIFIED"
+  },
+  {
+    "absolute_gap_to_full_pht": "56",
+    "method": "ENDPOINTS_ONLY_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-negative",
+    "status": "COMPLETED_VERIFIED"
+  },
+  {
+    "absolute_gap_to_full_pht": "0",
+    "method": "FULL_PHT_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-independent",
+    "status": "COMPLETED_VERIFIED"
+  },
+  {
+    "absolute_gap_to_full_pht": "0",
+    "method": "GREEDY_ADD_ONE_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-independent",
+    "status": "COMPLETED_VERIFIED"
+  },
+  {
+    "absolute_gap_to_full_pht": "40",
+    "method": "ENDPOINTS_ONLY_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-independent",
+    "status": "COMPLETED_VERIFIED"
+  },
+  {
+    "absolute_gap_to_full_pht": "0",
+    "method": "FULL_PHT_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-positive",
+    "status": "COMPLETED_VERIFIED"
+  },
+  {
+    "absolute_gap_to_full_pht": "0",
+    "method": "GREEDY_ADD_ONE_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-positive",
+    "status": "COMPLETED_VERIFIED"
+  },
+  {
+    "absolute_gap_to_full_pht": "24",
+    "method": "ENDPOINTS_ONLY_EXACT",
+    "reference_dominance_pass": true,
+    "scenario_id": "APP53-positive",
+    "status": "COMPLETED_VERIFIED"
+  }
+]

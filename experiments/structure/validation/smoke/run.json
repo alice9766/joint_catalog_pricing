@@ -1,0 +1,33 @@
+{
+  "python": "3.12.14",
+  "argv": [
+    "--suite",
+    "all",
+    "--indices",
+    "0",
+    "--output",
+    "experiments/structure/validation/smoke"
+  ],
+  "methods": [
+    "full",
+    "path",
+    "one_branch",
+    "contiguous",
+    "greedy",
+    "capacity"
+  ],
+  "selected": [
+    {
+      "suite": "structure",
+      "index": 0,
+      "source_id": "structure:d31a3ee46a2ce78940770e705c705bbefaf4461dede25e051ff6f7000e842be9"
+    },
+    {
+      "suite": "s1",
+      "index": 0,
+      "source_id": "s1:21616362a87a8ca6be757292397b5070df738559f83053295bb40ed6eb99e2a3"
+    }
+  ],
+  "scope": "Fresh serial solver calls; timings are diagnostic and do not replace manuscript benchmarks.",
+  "float_mode": true
+}

@@ -1,0 +1,19 @@
+{
+  "arithmetic": "fractions.Fraction; no tolerance",
+  "budget_scope": "one entire scenario-method worker incl imports, all internal solves and replay",
+  "budget_seconds": 300,
+  "elapsed_seconds": 0.1145304749989009,
+  "error": null,
+  "exit_code": 0,
+  "input_path": "inputs/APP53-negative.json",
+  "input_sha256": "33aad50920833f5899a2a449e79d80d04523c06af2fc3421b604e500237cf58c",
+  "lambda": -1,
+  "method": "FULL_PHT_EXACT",
+  "partial_result_policy": "any result under a non-completed controller status is diagnostic only",
+  "result_path": "APP53-negative--FULL_PHT_EXACT/worker_result.json",
+  "run_id": "APP53-negative--FULL_PHT_EXACT",
+  "scenario_id": "APP53-negative",
+  "status": "COMPLETED_VERIFIED",
+  "worker_pid": 6,
+  "worker_result_usable": true
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "solver_calls": 0,
+  "scope": "Replays every returned menu, checks all Greedy outer candidate traces, immutable hashes, and independently aggregates observed comparisons.",
+  "independent_inputs": 18,
+  "total_attempts": 162,
+  "milp_attempts": 54,
+  "milp_numerically_complete_attempts": 18,
+  "milp_numerically_complete_independent_inputs": 6,
+  "milp_internal_limit_attempts": 36,
+  "milp_objective_common_profit_disagreements": 21,
+  "certificates_replayed": 162,
+  "greedy_candidate_traces_replayed": 54,
+  "recorded_status_counts": {
+    "NUMERIC_COMPLETE": 126,
+    "SOLVER_NONOPTIMAL": 15,
+    "SOLVER_NONOPTIMAL_REPLAY_MISMATCH": 21
+  },
+  "primary_time_ratio_median": 0.9084174927368873,
+  "primary_time_ratio_range": [
+    0.2528051608948443,
+    1.234565007955142
+  ],
+  "secondary_optimal_time_inputs": 6,
+  "files_verified": 1338,
+  "errors": [],
+  "numerical_replay_note": "Replay recomputes canonical profit under the frozen floating-point tolerance; it does not independently prove global optimality or re-solve candidate prices."
+}

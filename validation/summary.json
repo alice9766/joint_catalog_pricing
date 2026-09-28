@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "relocated_package": true,
+  "unrelated_working_directory": true,
+  "original_workspace_file_access_blocked": true,
+  "python_audit_hooks_loaded_in_processes": 17,
+  "five_experiment_verifiers": "PASS",
+  "five_solver_smoke_commands": "PASS",
+  "figure5_and_figure6_pixels_equal_to_reference": true,
+  "manuscript_and_proofs_unchanged": true,
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0"
+  },
+  "note": "Verification and smoke timings are not replacements for the recorded benchmark timings."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "figure": "figure5_threshold_scaling",
+    "same_dimensions": true,
+    "pixels_equal": true,
+    "changed_channels": 0
+  },
+  {
+    "figure": "figure6_catalog_capacity",
+    "same_dimensions": true,
+    "pixels_equal": true,
+    "changed_channels": 0
+  }
+]

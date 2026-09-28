@@ -1,0 +1,13 @@
+{
+  "checks": [
+    {
+      "N_eff": 8,
+      "N_raw": 960,
+      "attempt_id": "P300--SMOKE-M04-B2-K2-independent-T5-smoke",
+      "canonical_profit": "4634/3",
+      "replayed_assignments": 960,
+      "selected_contracts": 2,
+      "status": "PASS"
+    }
+  ]
+}

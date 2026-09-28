@@ -1,0 +1,54 @@
+{
+  "K": 3,
+  "instance": {
+    "name": "R12 running example (R10 Model III)",
+    "qualities": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "fixed_costs": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "marginal_costs": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "price_grid": [
+      0.0
+    ],
+    "safety_ceiling": [
+      1,
+      2
+    ],
+    "buyers": [
+      {
+        "trust": 0,
+        "theta": 1.0,
+        "weight": 5.0,
+        "name": "low-1"
+      },
+      {
+        "trust": 0,
+        "theta": 4.0,
+        "weight": 1.0,
+        "name": "low-4"
+      },
+      {
+        "trust": 1,
+        "theta": 1.0,
+        "weight": 1.0,
+        "name": "high-1"
+      },
+      {
+        "trust": 1,
+        "theta": 2.0,
+        "weight": 1.0,
+        "name": "high-2"
+      }
+    ]
+  }
+}

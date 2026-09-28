@@ -1,0 +1,2566 @@
+{
+  "status": "PASS",
+  "scope": "Independent exact replay of recorded menus; identity/status/trace/accounting checks only; no solver imported or executed; not an independent global optimality proof.",
+  "script_sha256": "41435952c7e4fec52990e3ca5ac4a92977c7b1f0ff68428299c15bf1af2de4be",
+  "total_groups": 9,
+  "total_type_assignments_replayed": 72,
+  "total_internal_pht_calls_recorded": 27,
+  "check_count": 208,
+  "failed_checks": [],
+  "checks": [
+    {
+      "check": "nine planned groups",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "recorded plan hash",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "all nine status rows in frozen order",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: evidence/original_code/generate_inputs.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: evidence/original_code/run_application.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: evidence/original_code/validate_static.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: evidence/plan_at_launch.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: evidence/vendor_provenance.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: inputs/APP53-independent.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: inputs/APP53-negative.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: inputs/APP53-positive.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--ENDPOINTS_ONLY_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--ENDPOINTS_ONLY_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--ENDPOINTS_ONLY_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--ENDPOINTS_ONLY_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--ENDPOINTS_ONLY_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--FULL_PHT_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--FULL_PHT_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--FULL_PHT_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--FULL_PHT_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--FULL_PHT_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--GREEDY_ADD_ONE_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--GREEDY_ADD_ONE_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--GREEDY_ADD_ONE_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--GREEDY_ADD_ONE_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-independent--GREEDY_ADD_ONE_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--ENDPOINTS_ONLY_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--ENDPOINTS_ONLY_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--ENDPOINTS_ONLY_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--ENDPOINTS_ONLY_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--ENDPOINTS_ONLY_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--FULL_PHT_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--FULL_PHT_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--FULL_PHT_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--FULL_PHT_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--FULL_PHT_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--GREEDY_ADD_ONE_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--GREEDY_ADD_ONE_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--GREEDY_ADD_ONE_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--GREEDY_ADD_ONE_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-negative--GREEDY_ADD_ONE_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--ENDPOINTS_ONLY_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--ENDPOINTS_ONLY_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--ENDPOINTS_ONLY_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--ENDPOINTS_ONLY_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--ENDPOINTS_ONLY_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--FULL_PHT_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--FULL_PHT_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--FULL_PHT_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--FULL_PHT_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--FULL_PHT_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--GREEDY_ADD_ONE_EXACT/controller_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--GREEDY_ADD_ONE_EXACT/job.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--GREEDY_ADD_ONE_EXACT/stderr.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--GREEDY_ADD_ONE_EXACT/stdout.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/APP53-positive--GREEDY_ADD_ONE_EXACT/worker_result.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/comparisons.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/environment.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: recorded_runs/status.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: reference/table3_planning_case.tex",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: sources/source_manifest.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: vendor/exact_srmd.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: vendor/fixed_menu_pricing.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "manifest identity: vendor/persistent_hull_tree_dp.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "recorded source identity: generate_inputs.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "recorded source identity: run_application.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "recorded source identity: validate_static.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "recorded source identity: vendor/exact_srmd.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "recorded source identity: vendor/fixed_menu_pricing.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "recorded source identity: vendor/persistent_hull_tree_dp.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "three scenarios and three methods",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "negative: exact generator reproduction",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "independent: exact generator reproduction",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "positive: exact generator reproduction",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: input hash identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: whole-method budget",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: job unchanged",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: complete status/exit/deadline",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: worker input and method identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: empty stderr",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: menu and price feasibility",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: all eight exact assignments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: group demand and exit accounting",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: revenue/service/all-active fees/profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: method decision trace/frontier consistency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative: frozen synthetic parameters and marginals",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--FULL_PHT_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--GREEDY_ADD_ONE_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative--ENDPOINTS_ONLY_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative: capacity-one recorded candidate cross-check",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent: frozen synthetic parameters and marginals",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--FULL_PHT_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--GREEDY_ADD_ONE_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent--ENDPOINTS_ONLY_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent: capacity-one recorded candidate cross-check",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive: frozen synthetic parameters and marginals",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--FULL_PHT_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--GREEDY_ADD_ONE_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive--ENDPOINTS_ONLY_EXACT: recorded cross-method difference",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive: capacity-one recorded candidate cross-check",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-negative: release categories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-independent: release categories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "APP53-positive: release categories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III(a) all cells",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III(a) profit and exits",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III(b) negative",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III(b) independent",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III(b) positive",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: Public price",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: Low-access subscriptions",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: High-access subscriptions",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: Revenue",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: Service cost",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: Activation cost",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: negative",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: independent",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: positive",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: aggregate profit",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Table III source: exits",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "fixed-menu diagnostic arithmetic",
+      "pass_": true,
+      "detail": null
+    }
+  ],
+  "results": [
+    {
+      "run_id": "APP53-negative--FULL_PHT_EXACT",
+      "scenario_id": "APP53-negative",
+      "method": "FULL_PHT_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.1145304749989009,
+      "menu": [
+        1,
+        2
+      ],
+      "prices": [
+        "6",
+        "6"
+      ],
+      "revenue": "312",
+      "service_cost": "76",
+      "activation_cost": "2",
+      "profit": "234",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "4",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "8",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "12",
+          "choice": 1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "16",
+          "choice": 1,
+          "utility": "2"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "16",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "12",
+          "choice": 2,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "8",
+          "choice": 2,
+          "utility": "3"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "4",
+          "choice": 2,
+          "utility": "6"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "0",
+            "28",
+            "0"
+          ],
+          "exit": "12"
+        },
+        "1": {
+          "products": [
+            "0",
+            "0",
+            "24"
+          ],
+          "exit": "16"
+        }
+      },
+      "product_revenue": {
+        "1": "168",
+        "2": "144"
+      },
+      "product_service_cost": {
+        "1": "28",
+        "2": "48"
+      },
+      "product_activation_cost": {
+        "1": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta3",
+          "tied_choices": [
+            -1,
+            1
+          ],
+          "chosen": 1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "tied_choices": [
+            -1,
+            2
+          ],
+          "chosen": 2,
+          "utility": "0"
+        }
+      ],
+      "internal_pht_calls": 1,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "0"
+    },
+    {
+      "run_id": "APP53-negative--GREEDY_ADD_ONE_EXACT",
+      "scenario_id": "APP53-negative",
+      "method": "GREEDY_ADD_ONE_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.06449012300072354,
+      "menu": [
+        1,
+        2
+      ],
+      "prices": [
+        "6",
+        "6"
+      ],
+      "revenue": "312",
+      "service_cost": "76",
+      "activation_cost": "2",
+      "profit": "234",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "4",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "8",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "12",
+          "choice": 1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "16",
+          "choice": 1,
+          "utility": "2"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "16",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "12",
+          "choice": 2,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "8",
+          "choice": 2,
+          "utility": "3"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "4",
+          "choice": 2,
+          "utility": "6"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "0",
+            "28",
+            "0"
+          ],
+          "exit": "12"
+        },
+        "1": {
+          "products": [
+            "0",
+            "0",
+            "24"
+          ],
+          "exit": "16"
+        }
+      },
+      "product_revenue": {
+        "1": "168",
+        "2": "144"
+      },
+      "product_service_cost": {
+        "1": "28",
+        "2": "48"
+      },
+      "product_activation_cost": {
+        "1": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta3",
+          "tied_choices": [
+            -1,
+            1
+          ],
+          "chosen": 1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "tied_choices": [
+            -1,
+            2
+          ],
+          "chosen": 2,
+          "utility": "0"
+        }
+      ],
+      "internal_pht_calls": 5,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "0"
+    },
+    {
+      "run_id": "APP53-negative--ENDPOINTS_ONLY_EXACT",
+      "scenario_id": "APP53-negative",
+      "method": "ENDPOINTS_ONLY_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.06437118499889039,
+      "menu": [
+        0,
+        2
+      ],
+      "prices": [
+        "3",
+        "6"
+      ],
+      "revenue": "228",
+      "service_cost": "48",
+      "activation_cost": "2",
+      "profit": "178",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "4",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "8",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "12",
+          "choice": 0,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "16",
+          "choice": 0,
+          "utility": "1"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "16",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "12",
+          "choice": 2,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "8",
+          "choice": 2,
+          "utility": "3"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "4",
+          "choice": 2,
+          "utility": "6"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "28",
+            "0",
+            "0"
+          ],
+          "exit": "12"
+        },
+        "1": {
+          "products": [
+            "0",
+            "0",
+            "24"
+          ],
+          "exit": "16"
+        }
+      },
+      "product_revenue": {
+        "0": "84",
+        "2": "144"
+      },
+      "product_service_cost": {
+        "0": "0",
+        "2": "48"
+      },
+      "product_activation_cost": {
+        "0": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta3",
+          "tied_choices": [
+            -1,
+            0
+          ],
+          "chosen": 0,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "tied_choices": [
+            -1,
+            2
+          ],
+          "chosen": 2,
+          "utility": "0"
+        }
+      ],
+      "internal_pht_calls": 3,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "56"
+    },
+    {
+      "run_id": "APP53-independent--FULL_PHT_EXACT",
+      "scenario_id": "APP53-independent",
+      "method": "FULL_PHT_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.06452207199981785,
+      "menu": [
+        1,
+        2
+      ],
+      "prices": [
+        "6",
+        "9"
+      ],
+      "revenue": "300",
+      "service_cost": "60",
+      "activation_cost": "2",
+      "profit": "238",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "10",
+          "choice": 1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "10",
+          "choice": 1,
+          "utility": "2"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "10",
+          "choice": 2,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "10",
+          "choice": 2,
+          "utility": "3"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "0",
+            "20",
+            "0"
+          ],
+          "exit": "20"
+        },
+        "1": {
+          "products": [
+            "0",
+            "0",
+            "20"
+          ],
+          "exit": "20"
+        }
+      },
+      "product_revenue": {
+        "1": "120",
+        "2": "180"
+      },
+      "product_service_cost": {
+        "1": "20",
+        "2": "40"
+      },
+      "product_activation_cost": {
+        "1": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta3",
+          "tied_choices": [
+            -1,
+            1
+          ],
+          "chosen": 1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "tied_choices": [
+            -1,
+            1,
+            2
+          ],
+          "chosen": 2,
+          "utility": "0"
+        }
+      ],
+      "internal_pht_calls": 1,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "0"
+    },
+    {
+      "run_id": "APP53-independent--GREEDY_ADD_ONE_EXACT",
+      "scenario_id": "APP53-independent",
+      "method": "GREEDY_ADD_ONE_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.06451258800007054,
+      "menu": [
+        1,
+        2
+      ],
+      "prices": [
+        "6",
+        "9"
+      ],
+      "revenue": "300",
+      "service_cost": "60",
+      "activation_cost": "2",
+      "profit": "238",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "10",
+          "choice": 1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "10",
+          "choice": 1,
+          "utility": "2"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "10",
+          "choice": 2,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "10",
+          "choice": 2,
+          "utility": "3"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "0",
+            "20",
+            "0"
+          ],
+          "exit": "20"
+        },
+        "1": {
+          "products": [
+            "0",
+            "0",
+            "20"
+          ],
+          "exit": "20"
+        }
+      },
+      "product_revenue": {
+        "1": "120",
+        "2": "180"
+      },
+      "product_service_cost": {
+        "1": "20",
+        "2": "40"
+      },
+      "product_activation_cost": {
+        "1": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta3",
+          "tied_choices": [
+            -1,
+            1
+          ],
+          "chosen": 1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "tied_choices": [
+            -1,
+            1,
+            2
+          ],
+          "chosen": 2,
+          "utility": "0"
+        }
+      ],
+      "internal_pht_calls": 5,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "0"
+    },
+    {
+      "run_id": "APP53-independent--ENDPOINTS_ONLY_EXACT",
+      "scenario_id": "APP53-independent",
+      "method": "ENDPOINTS_ONLY_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.06430318300044746,
+      "menu": [
+        0,
+        2
+      ],
+      "prices": [
+        "2",
+        "8"
+      ],
+      "revenue": "240",
+      "service_cost": "40",
+      "activation_cost": "2",
+      "profit": "198",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "10",
+          "choice": 0,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "10",
+          "choice": 0,
+          "utility": "1"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "10",
+          "choice": 0,
+          "utility": "2"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "10",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "10",
+          "choice": 0,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "10",
+          "choice": 2,
+          "utility": "1"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "10",
+          "choice": 2,
+          "utility": "4"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "30",
+            "0",
+            "0"
+          ],
+          "exit": "10"
+        },
+        "1": {
+          "products": [
+            "10",
+            "0",
+            "20"
+          ],
+          "exit": "10"
+        }
+      },
+      "product_revenue": {
+        "0": "80",
+        "2": "160"
+      },
+      "product_service_cost": {
+        "0": "0",
+        "2": "40"
+      },
+      "product_activation_cost": {
+        "0": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta2",
+          "tied_choices": [
+            -1,
+            0
+          ],
+          "chosen": 0,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "tied_choices": [
+            -1,
+            0
+          ],
+          "chosen": 0,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "tied_choices": [
+            0,
+            2
+          ],
+          "chosen": 2,
+          "utility": "1"
+        }
+      ],
+      "internal_pht_calls": 3,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "40"
+    },
+    {
+      "run_id": "APP53-positive--FULL_PHT_EXACT",
+      "scenario_id": "APP53-positive",
+      "method": "FULL_PHT_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.06439980800132616,
+      "menu": [
+        1,
+        2
+      ],
+      "prices": [
+        "6",
+        "9"
+      ],
+      "revenue": "324",
+      "service_cost": "68",
+      "activation_cost": "2",
+      "profit": "254",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "16",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "12",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "8",
+          "choice": 1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "4",
+          "choice": 1,
+          "utility": "2"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "4",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "8",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "12",
+          "choice": 2,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "16",
+          "choice": 2,
+          "utility": "3"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "0",
+            "12",
+            "0"
+          ],
+          "exit": "28"
+        },
+        "1": {
+          "products": [
+            "0",
+            "0",
+            "28"
+          ],
+          "exit": "12"
+        }
+      },
+      "product_revenue": {
+        "1": "72",
+        "2": "252"
+      },
+      "product_service_cost": {
+        "1": "12",
+        "2": "56"
+      },
+      "product_activation_cost": {
+        "1": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta3",
+          "tied_choices": [
+            -1,
+            1
+          ],
+          "chosen": 1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "tied_choices": [
+            -1,
+            1,
+            2
+          ],
+          "chosen": 2,
+          "utility": "0"
+        }
+      ],
+      "internal_pht_calls": 1,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "0"
+    },
+    {
+      "run_id": "APP53-positive--GREEDY_ADD_ONE_EXACT",
+      "scenario_id": "APP53-positive",
+      "method": "GREEDY_ADD_ONE_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.06464150200190488,
+      "menu": [
+        1,
+        2
+      ],
+      "prices": [
+        "6",
+        "9"
+      ],
+      "revenue": "324",
+      "service_cost": "68",
+      "activation_cost": "2",
+      "profit": "254",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "16",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "12",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "8",
+          "choice": 1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "4",
+          "choice": 1,
+          "utility": "2"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "4",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "8",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "12",
+          "choice": 2,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "16",
+          "choice": 2,
+          "utility": "3"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "0",
+            "12",
+            "0"
+          ],
+          "exit": "28"
+        },
+        "1": {
+          "products": [
+            "0",
+            "0",
+            "28"
+          ],
+          "exit": "12"
+        }
+      },
+      "product_revenue": {
+        "1": "72",
+        "2": "252"
+      },
+      "product_service_cost": {
+        "1": "12",
+        "2": "56"
+      },
+      "product_activation_cost": {
+        "1": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta3",
+          "tied_choices": [
+            -1,
+            1
+          ],
+          "chosen": 1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "tied_choices": [
+            -1,
+            1,
+            2
+          ],
+          "chosen": 2,
+          "utility": "0"
+        }
+      ],
+      "internal_pht_calls": 5,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "0"
+    },
+    {
+      "run_id": "APP53-positive--ENDPOINTS_ONLY_EXACT",
+      "scenario_id": "APP53-positive",
+      "method": "ENDPOINTS_ONLY_EXACT",
+      "status": "COMPLETED_VERIFIED",
+      "elapsed_seconds": 0.06455289799851016,
+      "menu": [
+        0,
+        2
+      ],
+      "prices": [
+        "2",
+        "8"
+      ],
+      "revenue": "288",
+      "service_cost": "56",
+      "activation_cost": "2",
+      "profit": "230",
+      "assignments": [
+        {
+          "type": "low-theta1",
+          "trust": 0,
+          "theta": "1",
+          "weight": "16",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta2",
+          "trust": 0,
+          "theta": "2",
+          "weight": "12",
+          "choice": 0,
+          "utility": "0"
+        },
+        {
+          "type": "low-theta3",
+          "trust": 0,
+          "theta": "3",
+          "weight": "8",
+          "choice": 0,
+          "utility": "1"
+        },
+        {
+          "type": "low-theta4",
+          "trust": 0,
+          "theta": "4",
+          "weight": "4",
+          "choice": 0,
+          "utility": "2"
+        },
+        {
+          "type": "high-theta1",
+          "trust": 1,
+          "theta": "1",
+          "weight": "4",
+          "choice": -1,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "trust": 1,
+          "theta": "2",
+          "weight": "8",
+          "choice": 0,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "trust": 1,
+          "theta": "3",
+          "weight": "12",
+          "choice": 2,
+          "utility": "1"
+        },
+        {
+          "type": "high-theta4",
+          "trust": 1,
+          "theta": "4",
+          "weight": "16",
+          "choice": 2,
+          "utility": "4"
+        }
+      ],
+      "group_demands": {
+        "0": {
+          "products": [
+            "24",
+            "0",
+            "0"
+          ],
+          "exit": "16"
+        },
+        "1": {
+          "products": [
+            "8",
+            "0",
+            "28"
+          ],
+          "exit": "4"
+        }
+      },
+      "product_revenue": {
+        "0": "64",
+        "2": "224"
+      },
+      "product_service_cost": {
+        "0": "0",
+        "2": "56"
+      },
+      "product_activation_cost": {
+        "0": "1",
+        "2": "1"
+      },
+      "canonical_tie_events": [
+        {
+          "type": "low-theta2",
+          "tied_choices": [
+            -1,
+            0
+          ],
+          "chosen": 0,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta2",
+          "tied_choices": [
+            -1,
+            0
+          ],
+          "chosen": 0,
+          "utility": "0"
+        },
+        {
+          "type": "high-theta3",
+          "tied_choices": [
+            0,
+            2
+          ],
+          "chosen": 2,
+          "utility": "1"
+        }
+      ],
+      "internal_pht_calls": 3,
+      "zero_demand_activated_products": [],
+      "gap_to_full_pht": "24"
+    }
+  ],
+  "observed_result_files": [
+    {
+      "path": "APP53-independent--ENDPOINTS_ONLY_EXACT/controller_result.json",
+      "sha256": "acbf4267fbf24801776a84f2661b088b04a3cf2585fdd774c1c3c1bd5eb364d5",
+      "bytes": 801
+    },
+    {
+      "path": "APP53-independent--ENDPOINTS_ONLY_EXACT/job.json",
+      "sha256": "6f1f7a596971c1bc3c187de313d7f6ca19dce8fee95a97c2e03034c646364b10",
+      "bytes": 482
+    },
+    {
+      "path": "APP53-independent--ENDPOINTS_ONLY_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-independent--ENDPOINTS_ONLY_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-independent--ENDPOINTS_ONLY_EXACT/worker_result.json",
+      "sha256": "f9974e9435b870fe68eb76b59241c28689a778507fc463389f054bf1a4de1f1c",
+      "bytes": 2687
+    },
+    {
+      "path": "APP53-independent--FULL_PHT_EXACT/controller_result.json",
+      "sha256": "9e74895cea07139972235f8a4b20827d5f76d9bcc4f94d0bda0c24563b7a4eb4",
+      "bytes": 782
+    },
+    {
+      "path": "APP53-independent--FULL_PHT_EXACT/job.json",
+      "sha256": "169b39d687dc009d864be967479abec03408be030c1b13a38f14443186c2b929",
+      "bytes": 470
+    },
+    {
+      "path": "APP53-independent--FULL_PHT_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-independent--FULL_PHT_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-independent--FULL_PHT_EXACT/worker_result.json",
+      "sha256": "8b957cdcf5ba554c1c7708ee2aa1ae4d9d6d1220315c5e85cc57241465ca1dd2",
+      "bytes": 2517
+    },
+    {
+      "path": "APP53-independent--GREEDY_ADD_ONE_EXACT/controller_result.json",
+      "sha256": "7f934dbd0f0cf4cc7e9a1ef889be22eb600cb2cd4fdd7f33bd48dbf0e7134095",
+      "bytes": 801
+    },
+    {
+      "path": "APP53-independent--GREEDY_ADD_ONE_EXACT/job.json",
+      "sha256": "c8a29feb39a70612828dc2c449a91557e4d137e45a557bee4a474019d0890ac6",
+      "bytes": 482
+    },
+    {
+      "path": "APP53-independent--GREEDY_ADD_ONE_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-independent--GREEDY_ADD_ONE_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-independent--GREEDY_ADD_ONE_EXACT/worker_result.json",
+      "sha256": "4502305e95f2daf810ec4b2dde0d61fea36ed89fd61b5398173902529ac66e1b",
+      "bytes": 2970
+    },
+    {
+      "path": "APP53-negative--ENDPOINTS_ONLY_EXACT/controller_result.json",
+      "sha256": "9833a77142b8b7e664f3a7c13568a30d5028e1af3f40f3237ad4ed1c38586b3a",
+      "bytes": 789
+    },
+    {
+      "path": "APP53-negative--ENDPOINTS_ONLY_EXACT/job.json",
+      "sha256": "a6605e18586f38ca15e4a2ccaa76df7097dd05d5b146774ace70dd920f187c6c",
+      "bytes": 474
+    },
+    {
+      "path": "APP53-negative--ENDPOINTS_ONLY_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-negative--ENDPOINTS_ONLY_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-negative--ENDPOINTS_ONLY_EXACT/worker_result.json",
+      "sha256": "164f4650ed456cc8aff5c60347bcdc16a785baf2eb94b91c0a0177c651a00cb4",
+      "bytes": 2679
+    },
+    {
+      "path": "APP53-negative--FULL_PHT_EXACT/controller_result.json",
+      "sha256": "837526c44dd7e9f4d1ada92690deacd09191f13ffc7a89689adfb995ff50d373",
+      "bytes": 770
+    },
+    {
+      "path": "APP53-negative--FULL_PHT_EXACT/job.json",
+      "sha256": "6fc82d834b272e4e8c944038141fff20449db6377e5c2748526507762549239d",
+      "bytes": 462
+    },
+    {
+      "path": "APP53-negative--FULL_PHT_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-negative--FULL_PHT_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-negative--FULL_PHT_EXACT/worker_result.json",
+      "sha256": "723bc0c90459a2578575c9b1985a7eddfd34117425f8a0c21892f7e0d8dfdfa7",
+      "bytes": 2509
+    },
+    {
+      "path": "APP53-negative--GREEDY_ADD_ONE_EXACT/controller_result.json",
+      "sha256": "2761553d3de26c8b1ce66ca2b8c3944ecb7e8cace4e3e7419d699cbab62feba1",
+      "bytes": 789
+    },
+    {
+      "path": "APP53-negative--GREEDY_ADD_ONE_EXACT/job.json",
+      "sha256": "1518d17d8cf1ec8f5ee25fbffbb523aca8f275767557aa56fb6564a033652893",
+      "bytes": 474
+    },
+    {
+      "path": "APP53-negative--GREEDY_ADD_ONE_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-negative--GREEDY_ADD_ONE_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-negative--GREEDY_ADD_ONE_EXACT/worker_result.json",
+      "sha256": "12c3d89a1b0863e72f2a48eba13687c5a7c7c3d5ccbf90f17dfb670c2fbf06a4",
+      "bytes": 2961
+    },
+    {
+      "path": "APP53-positive--ENDPOINTS_ONLY_EXACT/controller_result.json",
+      "sha256": "9a6f92f880a386ac2ac8724a271b15eefcc55c5204ff81c656979028d75b015d",
+      "bytes": 789
+    },
+    {
+      "path": "APP53-positive--ENDPOINTS_ONLY_EXACT/job.json",
+      "sha256": "188ac3eadd5f876d936209bccbbb7113626490b966bfddfa1275e07f3175ec68",
+      "bytes": 473
+    },
+    {
+      "path": "APP53-positive--ENDPOINTS_ONLY_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-positive--ENDPOINTS_ONLY_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-positive--ENDPOINTS_ONLY_EXACT/worker_result.json",
+      "sha256": "dbbba32e26228d0b11ce9d0bab093e9f01494afca81b92640482ee3380ba007d",
+      "bytes": 2678
+    },
+    {
+      "path": "APP53-positive--FULL_PHT_EXACT/controller_result.json",
+      "sha256": "ef8813f301d27cc76b2feccc19fcd54b2fa80062bdd383f1c694c68f14d2688e",
+      "bytes": 771
+    },
+    {
+      "path": "APP53-positive--FULL_PHT_EXACT/job.json",
+      "sha256": "7ae35bbebe28e1ca856f913af2d289559d711dcce94153fcd2f61febb8655af4",
+      "bytes": 461
+    },
+    {
+      "path": "APP53-positive--FULL_PHT_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-positive--FULL_PHT_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-positive--FULL_PHT_EXACT/worker_result.json",
+      "sha256": "b9962d177e99bb765a77a350fbd412f742a1f7aa459d86c17160adc26cf9731d",
+      "bytes": 2510
+    },
+    {
+      "path": "APP53-positive--GREEDY_ADD_ONE_EXACT/controller_result.json",
+      "sha256": "3182acce3ecde143c00725342a0814c56de224d1149c8f5e294e4ae68741b719",
+      "bytes": 789
+    },
+    {
+      "path": "APP53-positive--GREEDY_ADD_ONE_EXACT/job.json",
+      "sha256": "5b9f69e017e2b65c22fd8ed03ea491f9fbfe3e5713e833eae7cafba57614fbda",
+      "bytes": 473
+    },
+    {
+      "path": "APP53-positive--GREEDY_ADD_ONE_EXACT/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-positive--GREEDY_ADD_ONE_EXACT/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "APP53-positive--GREEDY_ADD_ONE_EXACT/worker_result.json",
+      "sha256": "4b9b21ded5dcc698de18ed275a253cccfa77ed65ee4dd55b059355df0d44c38f",
+      "bytes": 2963
+    },
+    {
+      "path": "comparisons.json",
+      "sha256": "1d38bad933fbef202adaf9f0f3663255f568f15e3861eaa9ffaec9ff98cf4798",
+      "bytes": 1743
+    },
+    {
+      "path": "environment.json",
+      "sha256": "0352c0f2ced05d0ed2a9b0fbb1123b20b43c00ba94dbc32df205945c78e0943e",
+      "bytes": 1163
+    },
+    {
+      "path": "status.json",
+      "sha256": "263010b15a4e1ee5aa4055c70686db0b0e5c726d8e0c8bfa5e8c29c22e9888d8",
+      "bytes": 7793
+    }
+  ],
+  "limitations": [
+    "All methods use the same archived PHT pricing engine; no independent optimization oracle was run.",
+    "Recorded candidate profits are checked for decision-trace consistency, not independently optimized or replayed when candidate prices were not recorded.",
+    "The three designed scenarios do not estimate real customer demand, prices, operating fees or real-world profits.",
+    "The archived environment status BATCH_STARTED and plan NOT_RUN describe launch-time metadata; final completion is recorded in the nine controller/status rows."
+  ]
+}

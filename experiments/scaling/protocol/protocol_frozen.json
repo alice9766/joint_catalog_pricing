@@ -1,0 +1,364 @@
+{
+  "protocol_id": "SafeRefresh-R26-Joint-MT-300s-v1",
+  "date": "2026-09-25",
+  "protocol_status": "FROZEN_BEFORE_PREFLIGHT",
+  "purpose": "Measure bounded exact-arithmetic performance jointly over candidate products M and valuation thresholds T, under declared access and capacity profiles.",
+  "mode": "exact_fraction",
+  "main_grid": {
+    "M": [
+      8,
+      12,
+      24
+    ],
+    "T": [
+      20,
+      40
+    ],
+    "B": 4,
+    "K": 4
+  },
+  "supplemental_grid": [
+    {
+      "M": 12,
+      "T": 40,
+      "B": 6,
+      "K": 6
+    }
+  ],
+  "workloads": [
+    "independent",
+    "correlated"
+  ],
+  "raw_record_count": 960,
+  "total_weight": "120",
+  "theta_min": "1",
+  "theta_max": "9",
+  "legacy_price_grid": [
+    "0"
+  ],
+  "repetitions": 3,
+  "planned_input_count": 14,
+  "planned_attempt_count": 42,
+  "limits": {
+    "per_attempt_wall_seconds": 300,
+    "per_worker_address_space_bytes": 4294967296,
+    "suite_wall_seconds": null,
+    "parallel_workers": 1,
+    "cpu_threads": 1,
+    "timeout_kill_grace_seconds": 1
+  },
+  "preflight_smoke_wall_seconds": 10,
+  "attempt_order": "Three rounds over all cases. Round 1 base order main T ascending/M ascending/workload independent then correlated, then supplemental. Round 2 reverse base. Round 3 rotate base left by 7.",
+  "resource_failure_policy": "Continue every remaining planned attempt after TIMEOUT or confirmed MEMORY_LIMIT; no family pruning, no retry or replacement.",
+  "validation_failure_policy": "Stop the suite on INPUT_INVALID, RECONSTRUCTION_FAIL, SOLVER_ERROR, ENV_KILLED or LAUNCH_ERROR; retain diagnostics and mark all remaining rows NOT_RUN_SUITE_ERROR.",
+  "global_budget_policy": "No internal suite wall limit. Each formal worker receives the full 300-second deadline plus at most 1 second cleanup. Do not launch under an external orchestration cap unable to reserve full remaining windows.",
+  "interrupt_policy": "Keep finalized started attempts immutable; recover unfinished RUNNING reservations as INTERRUPTED. Resume only attempts with no durable launch reservation. Never replace an interruption with success under the same attempt ID.",
+  "solver_snapshot": {
+    "file": "persistent_hull_tree_dp.py",
+    "sha256": "ed856fa9a4a2eccf48b952c4eb1d15e1d5add3fae20fcec113f92f4057c78d06",
+    "entry": "solve_persistent_hull_tree(instance, K, exact=True)",
+    "target_size": null,
+    "type_file": "exact_srmd.py",
+    "type_file_sha256": "f86cea7c3bcaf68635388dbb71cd0b04b0fe7e0ce733135ccebe322bac53f3f9"
+  },
+  "metrics": {
+    "primary_time": "process_wall_seconds, includes interpreter/imports/loading/exact solve/internal recovery/external canonical validation/certificate write",
+    "secondary_time": [
+      "solver_wall_seconds",
+      "external_validation_wall_seconds",
+      "cpu_total_seconds",
+      "controller_wall_seconds"
+    ],
+    "memory": "os.wait4 ru_maxrss measured in Linux KiB, report MiB; separate from 4-GiB address-space limit",
+    "completion": "Exact completion requires worker success before deadline and exact recovery checks; report exact/planned and exact/started plus all status counts.",
+    "censored_time": "TIMEOUT is right-censored at 300 seconds. Success requires first observed full return strictly before 300; never use timeout as a completed duration.",
+    "summaries": "All 42 planned IDs remain in denominator. Counts by attempt status, input, environment segment, completion thresholds; successful-only median/min/max with success count; RSS by status. Historical R21 remains separate.",
+    "state_count": "Returned S/F/Q/edge_value cache entries, including infeasible states, excluding tail cache; only for exact complete attempts.",
+    "bit_lengths": "Maximum numerator/denominator bits for input rational values and returned numerical certificate fields. Not all internal DP states.",
+    "repeat_interpretation": "Three fresh processes repeat the same deterministic input, measuring run variability rather than independent demand sampling.",
+    "completion_thresholds_seconds": [
+      30,
+      60,
+      120,
+      300
+    ]
+  },
+  "inference_scope": "Synthetic, declared arithmetic and input shapes; main grid holds B/K fixed. Supplemental profile changes B and K together and does not identify their separate effects. T changes support size and input bit lengths. No comparison to archived machine timings, no universal runtime bound or deployment-calibrated demand claim.",
+  "baselines": [],
+  "formal_runs_prior_to_freeze": 0,
+  "smoke_case": {
+    "case_id": "SMOKE-M04-B2-K2-independent-T5",
+    "input_sha256": "1f333c00eb0c9bd06f27efd1f041a90f0326d9e654432acf06493330a9cf36f1",
+    "M": 4,
+    "P": 4,
+    "B": 2,
+    "K": 2,
+    "T": 5,
+    "N_raw": 960,
+    "total_weight": "120",
+    "cohort": "preflight_only",
+    "input_file": "inputs/SMOKE-M04-B2-K2-independent-T5.json",
+    "ceilings": [
+      1,
+      3
+    ],
+    "workload": "independent",
+    "attempt_id": "P300--SMOKE-M04-B2-K2-independent-T5-smoke",
+    "repetition": 0,
+    "original_attempt_id": "SMOKE-M04-B2-K2-independent-T5-smoke"
+  },
+  "declared_profiles": [
+    {
+      "id": "MAIN-M08",
+      "M": 8,
+      "B": 4,
+      "K": 4,
+      "qualities": [
+        "1",
+        "12/7",
+        "17/7",
+        "22/7",
+        "27/7",
+        "32/7",
+        "37/7",
+        "6"
+      ],
+      "ceilings": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "fixed_costs": [
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6",
+        "2",
+        "5"
+      ],
+      "marginal_costs": [
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "id": "MAIN-M12",
+      "M": 12,
+      "B": 4,
+      "K": 4,
+      "qualities": [
+        "1",
+        "16/11",
+        "21/11",
+        "26/11",
+        "31/11",
+        "36/11",
+        "41/11",
+        "46/11",
+        "51/11",
+        "56/11",
+        "61/11",
+        "6"
+      ],
+      "ceilings": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "fixed_costs": [
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6",
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6"
+      ],
+      "marginal_costs": [
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2",
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2"
+      ]
+    },
+    {
+      "id": "MAIN-M24",
+      "M": 24,
+      "B": 4,
+      "K": 4,
+      "qualities": [
+        "1",
+        "28/23",
+        "33/23",
+        "38/23",
+        "43/23",
+        "48/23",
+        "53/23",
+        "58/23",
+        "63/23",
+        "68/23",
+        "73/23",
+        "78/23",
+        "83/23",
+        "88/23",
+        "93/23",
+        "98/23",
+        "103/23",
+        "108/23",
+        "113/23",
+        "118/23",
+        "123/23",
+        "128/23",
+        "133/23",
+        "6"
+      ],
+      "ceilings": [
+        5,
+        11,
+        17,
+        23
+      ],
+      "fixed_costs": [
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6",
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6",
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6",
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6"
+      ],
+      "marginal_costs": [
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2",
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2",
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2",
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2"
+      ]
+    },
+    {
+      "id": "STRESS-M12-B6-K6",
+      "M": 12,
+      "B": 6,
+      "K": 6,
+      "qualities": [
+        "1",
+        "16/11",
+        "21/11",
+        "26/11",
+        "31/11",
+        "36/11",
+        "41/11",
+        "46/11",
+        "51/11",
+        "56/11",
+        "61/11",
+        "6"
+      ],
+      "ceilings": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "fixed_costs": [
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6",
+        "2",
+        "5",
+        "3",
+        "7",
+        "4",
+        "6"
+      ],
+      "marginal_costs": [
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2",
+        "0",
+        "1",
+        "1/2",
+        "2",
+        "1",
+        "5/2"
+      ]
+    }
+  ],
+  "frozen_at_utc": "2026-09-25T13:38:35.906155+00:00",
+  "preparation_status": "PREPARED_NOT_EXECUTED",
+  "origin": {
+    "protocol_id": "SafeRefresh-R21-Joint-MT-v1",
+    "original_protocol_sha256": "4bb78428d043269269e3f12a14c4e918e9eeec6fe6388ae228d357da4324f92e",
+    "original_plan_sha256": "6a0bd9b7a0aeb0da735fa3efd30eae2941677918e00fc16d005c4a27f4411f8e",
+    "original_freeze_sha256": "8ca7f1aebe617a693638c89311dac2e72b0cecfdb7e5ab7deba81c49d2bb7b9c",
+    "original_worker_sha256": "1543347e1c338644e15f02eccc54bbf976ef0c8cc96b57a9889e84fadc1459fb",
+    "original_runner_sha256": "dba92a75e566c678d413fbaefbe8e98170b26419066b69a704735a23818766c4"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "source_package": "SafeRefresh_R23_Public_Repro_Candidate",
+  "files": [
+    {
+      "package_path": "experiments/structure/vendor/persistent_hull_tree_dp.py",
+      "source_path": "r6_work/reference/historical/code/persistent_hull_tree_dp.py",
+      "sha256": "ed856fa9a4a2eccf48b952c4eb1d15e1d5add3fae20fcec113f92f4057c78d06",
+      "bytes": 26860,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/run_saferefresh_s1.py",
+      "source_path": "r6_work/reference/historical/code/run_saferefresh_s1.py",
+      "sha256": "91ff1442efc38a0e289c579979c7330d257adc4e3217cea3f4355f0dc77ead2c",
+      "bytes": 25829,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/exact_continuous_srmd.py",
+      "source_path": "r6_work/reference/historical/code/exact_continuous_srmd.py",
+      "sha256": "0f5f3a82dd2d2b441467c0967e69f9e08ab51db20183dfb877e14e13c693a9ed",
+      "bytes": 9933,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/saferefresh_algorithm_structure_gate.py",
+      "source_path": "r6_work/reference/historical/code/saferefresh_algorithm_structure_gate.py",
+      "sha256": "742835b718f00c874c1893148a2d78b736e1f33d5eb075b704d05320faf033f6",
+      "bytes": 22283,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/audit_p0_baseline_impact.py",
+      "source_path": "r6_work/reference/historical/code/audit_p0_baseline_impact.py",
+      "sha256": "d917de19825f072571bc2fe69ded385e8f28ccab890e0080b93522ba8db27695",
+      "bytes": 16382,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/exact_srmd.py",
+      "source_path": "r6_work/reference/historical/code/exact_srmd.py",
+      "sha256": "f86cea7c3bcaf68635388dbb71cd0b04b0fe7e0ce733135ccebe322bac53f3f9",
+      "bytes": 24503,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/pht_structure_baselines.py",
+      "source_path": "r6_work/reference/historical/code/pht_structure_baselines.py",
+      "sha256": "d4ea152c4b96c6394cca145311a5e2aa21a704ee283681ea8dbcadb56cd9b86a",
+      "bytes": 11198,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/srmd_direct_milp.py",
+      "source_path": "r6_work/reference/historical/code/srmd_direct_milp.py",
+      "sha256": "7cebcec59d83493ffcbb3d8f5e0211c1acbe715b5eee75cfc02d4a444ffbefbe",
+      "bytes": 13044,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/fixed_menu_pricing.py",
+      "source_path": "r6_work/reference/historical/code/fixed_menu_pricing.py",
+      "sha256": "a3e0c759ab8f7c6f1325808a505a0d08f8f6541f62e311142b1c5185aeebf44b",
+      "bytes": 4836,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/vendor/continuous_srmd.py",
+      "source_path": "r6_work/reference/historical/code/continuous_srmd.py",
+      "sha256": "fe2f7a10af557fc855f56913672007f172682b29e3aa64806feddebf4e2e2ab6",
+      "bytes": 11751,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/instances.jsonl",
+      "source_path": "inputs/historical_1398.jsonl",
+      "sha256": "cb4fbc7097a869eca95ae32cfa4170afeb81dacb327d18898301028b82e46b64",
+      "bytes": 4409168,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/evidence/structure_results.json",
+      "source_path": "r6_work/reference/historical/results/PHT_STRUCTURE_VALUE_GATE_RESULTS.json",
+      "sha256": "50c2d6125b85367289cdf1e0b887b6b70e04b270f8dd9344b2596742c7f5f597",
+      "bytes": 876581,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/evidence/s1_results.jsonl",
+      "source_path": "r6_work/reference/historical/results/s1_confirmatory_20260911/main.jsonl",
+      "sha256": "fe3f6beccbb90e7340fc359ca66cecf876cdf9fc46c54c203a7f685c39e0da9c",
+      "bytes": 1773441,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/evidence/s1_run_metadata.json",
+      "source_path": "r6_work/reference/historical/results/s1_confirmatory_20260911/run_metadata.json",
+      "sha256": "2ec23312aca509154d0f5203c26a86d4de868fb593a56c2714340d8284ac4b85",
+      "bytes": 1132,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/evidence/corrected_baselines.jsonl",
+      "source_path": "r6_work/reference/historical/results/p0_correction_results/baseline_recompute.jsonl",
+      "sha256": "8d84931ddd271abb84df8b058a6650e057d7dc7ef6bd55c4d257afde08c87026",
+      "bytes": 1823423,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/evidence/correction_summary.json",
+      "source_path": "r6_work/reference/historical/results/p0_correction_results/summary.json",
+      "sha256": "17c4bebf6c0e9ea647055adfd30179325c2db4b434b8f828fdff63fb32faf749",
+      "bytes": 6279,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/evidence/correction_metadata.json",
+      "source_path": "r6_work/reference/historical/results/p0_correction_results/metadata.json",
+      "sha256": "032a9a82f8ae555191eeece78fc0d401602ed6e75d9107233a93d1c163aa9734",
+      "bytes": 4165,
+      "copy": "byte-for-byte"
+    },
+    {
+      "package_path": "experiments/structure/evidence/original_s1_config.json",
+      "source_path": "r6_work/reference/historical/results/SAFE_REFRESH_SYNTHETIC_EVALUATION_S1_CONFIG.json",
+      "sha256": "a4f212491ab156c0edc14e9a165030e101247232a80ccf5afba08c1bc0cfb4df",
+      "bytes": 2252,
+      "copy": "byte-for-byte"
+    }
+  ],
+  "solver_modifications": [],
+  "entrypoint_adjustments": [
+    "New repository-relative wrappers load configuration and evidence explicitly; original vendor code is unchanged.",
+    "Original vendor CLI entrypoints are retained as source and are not the documented package entrypoints."
+  ],
+  "figure6_reference": {
+    "source": "revision/approved_working/paper/figures/section5_figure_data.json",
+    "sha256": "213550688b19447f4d328d15a9f42131a5fcb5683ae4889245b41d4577d4e072",
+    "extracted_keys": [
+      "loss_records",
+      "capacity_records"
+    ]
+  }
+}

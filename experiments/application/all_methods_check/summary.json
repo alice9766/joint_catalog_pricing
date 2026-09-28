@@ -1,0 +1,186 @@
+{
+  "runs": [
+    {
+      "elapsed_seconds": 0.11403896600677399,
+      "exit_code": 0,
+      "input_sha256": "33aad50920833f5899a2a449e79d80d04523c06af2fc3421b604e500237cf58c",
+      "menu": [
+        1,
+        2
+      ],
+      "method": "FULL_PHT_EXACT",
+      "prices": [
+        "6",
+        "6"
+      ],
+      "profit": "234",
+      "recorded_profit": "234",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-negative--FULL_PHT_EXACT",
+      "scenario": "negative",
+      "status": "PASS"
+    },
+    {
+      "elapsed_seconds": 0.06463221499870997,
+      "exit_code": 0,
+      "input_sha256": "33aad50920833f5899a2a449e79d80d04523c06af2fc3421b604e500237cf58c",
+      "menu": [
+        1,
+        2
+      ],
+      "method": "GREEDY_ADD_ONE_EXACT",
+      "prices": [
+        "6",
+        "6"
+      ],
+      "profit": "234",
+      "recorded_profit": "234",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-negative--GREEDY_ADD_ONE_EXACT",
+      "scenario": "negative",
+      "status": "PASS"
+    },
+    {
+      "elapsed_seconds": 0.06409309100126848,
+      "exit_code": 0,
+      "input_sha256": "33aad50920833f5899a2a449e79d80d04523c06af2fc3421b604e500237cf58c",
+      "menu": [
+        0,
+        2
+      ],
+      "method": "ENDPOINTS_ONLY_EXACT",
+      "prices": [
+        "3",
+        "6"
+      ],
+      "profit": "178",
+      "recorded_profit": "178",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-negative--ENDPOINTS_ONLY_EXACT",
+      "scenario": "negative",
+      "status": "PASS"
+    },
+    {
+      "elapsed_seconds": 0.06395862800127361,
+      "exit_code": 0,
+      "input_sha256": "b8d64b49a67f2365c92c8c900e3d81d381a1f0ec4d880cc50b6857ea772faa66",
+      "menu": [
+        1,
+        2
+      ],
+      "method": "FULL_PHT_EXACT",
+      "prices": [
+        "6",
+        "9"
+      ],
+      "profit": "238",
+      "recorded_profit": "238",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-independent--FULL_PHT_EXACT",
+      "scenario": "independent",
+      "status": "PASS"
+    },
+    {
+      "elapsed_seconds": 0.06521128900203621,
+      "exit_code": 0,
+      "input_sha256": "b8d64b49a67f2365c92c8c900e3d81d381a1f0ec4d880cc50b6857ea772faa66",
+      "menu": [
+        1,
+        2
+      ],
+      "method": "GREEDY_ADD_ONE_EXACT",
+      "prices": [
+        "6",
+        "9"
+      ],
+      "profit": "238",
+      "recorded_profit": "238",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-independent--GREEDY_ADD_ONE_EXACT",
+      "scenario": "independent",
+      "status": "PASS"
+    },
+    {
+      "elapsed_seconds": 0.06410351699742023,
+      "exit_code": 0,
+      "input_sha256": "b8d64b49a67f2365c92c8c900e3d81d381a1f0ec4d880cc50b6857ea772faa66",
+      "menu": [
+        0,
+        2
+      ],
+      "method": "ENDPOINTS_ONLY_EXACT",
+      "prices": [
+        "2",
+        "8"
+      ],
+      "profit": "198",
+      "recorded_profit": "198",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-independent--ENDPOINTS_ONLY_EXACT",
+      "scenario": "independent",
+      "status": "PASS"
+    },
+    {
+      "elapsed_seconds": 0.0640852590004215,
+      "exit_code": 0,
+      "input_sha256": "98a8bc83c78f8b22b9a71ea428e008f297b720d4f4675626f694ea4776e421e2",
+      "menu": [
+        1,
+        2
+      ],
+      "method": "FULL_PHT_EXACT",
+      "prices": [
+        "6",
+        "9"
+      ],
+      "profit": "254",
+      "recorded_profit": "254",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-positive--FULL_PHT_EXACT",
+      "scenario": "positive",
+      "status": "PASS"
+    },
+    {
+      "elapsed_seconds": 0.06427310800063424,
+      "exit_code": 0,
+      "input_sha256": "98a8bc83c78f8b22b9a71ea428e008f297b720d4f4675626f694ea4776e421e2",
+      "menu": [
+        1,
+        2
+      ],
+      "method": "GREEDY_ADD_ONE_EXACT",
+      "prices": [
+        "6",
+        "9"
+      ],
+      "profit": "254",
+      "recorded_profit": "254",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-positive--GREEDY_ADD_ONE_EXACT",
+      "scenario": "positive",
+      "status": "PASS"
+    },
+    {
+      "elapsed_seconds": 0.06403002099978039,
+      "exit_code": 0,
+      "input_sha256": "98a8bc83c78f8b22b9a71ea428e008f297b720d4f4675626f694ea4776e421e2",
+      "menu": [
+        0,
+        2
+      ],
+      "method": "ENDPOINTS_ONLY_EXACT",
+      "prices": [
+        "2",
+        "8"
+      ],
+      "profit": "230",
+      "recorded_profit": "230",
+      "recorded_profit_matches": true,
+      "run_id": "APP53-positive--ENDPOINTS_ONLY_EXACT",
+      "scenario": "positive",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Fresh exact solves with canonical replay, compared with recorded objective values; timings are from this new environment.",
+  "status": "PASS"
+}

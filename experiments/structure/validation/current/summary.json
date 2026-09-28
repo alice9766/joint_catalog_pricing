@@ -1,0 +1,274 @@
+{
+  "status": "PASS",
+  "scope": "All inputs regenerated and archived results recomputed; no optimization calls.",
+  "input_count": 1398,
+  "source_files_byte_identical": 18,
+  "solver_calls": 0,
+  "current_figure6_all_values_equal": true,
+  "normalization": {
+    "baseline": "(V_K - baseline_profit) / max(1, abs(V_K))",
+    "capacity": "(V_M - V_k) / max(1, abs(V_M))",
+    "zero_tolerance": 1e-08,
+    "quantile": "NumPy linear interpolation, including zero losses"
+  },
+  "suites": {
+    "structure": {
+      "n": 750,
+      "baselines": {
+        "path": {
+          "n": 750,
+          "minimum": 0.0,
+          "mean": 0.010624212239123585,
+          "median": 0.0018721768079190191,
+          "p95": 0.05016737205642982,
+          "maximum": 0.0952994204764971,
+          "zero_loss_count": 337,
+          "strict_loss_count": 413
+        },
+        "one_branch": {
+          "n": 750,
+          "minimum": 0.0,
+          "mean": 0.0010486768887619927,
+          "median": 0.0,
+          "p95": 0.0065054530846172165,
+          "maximum": 0.03217533224527862,
+          "zero_loss_count": 612,
+          "strict_loss_count": 138
+        },
+        "contiguous": {
+          "n": 750,
+          "minimum": 0.0,
+          "mean": 0.11310382100266,
+          "median": 0.11452208528451491,
+          "p95": 0.25148634170481954,
+          "maximum": 0.4077588612894223,
+          "zero_loss_count": 2,
+          "strict_loss_count": 748
+        },
+        "greedy": {
+          "n": 750,
+          "minimum": 0.0,
+          "mean": 6.13788764596943e-07,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0004603415734477073,
+          "zero_loss_count": 749,
+          "strict_loss_count": 1
+        }
+      },
+      "effective_type_count_range": [
+        15,
+        60
+      ]
+    },
+    "s1": {
+      "n": 648,
+      "baselines": {
+        "path": {
+          "n": 648,
+          "minimum": 0.0,
+          "mean": 0.009709619638820428,
+          "median": 0.0,
+          "p95": 0.05069139133801061,
+          "maximum": 0.20629174512000004,
+          "zero_loss_count": 403,
+          "strict_loss_count": 245
+        },
+        "one_branch": {
+          "n": 648,
+          "minimum": 0.0,
+          "mean": 0.0004494879871001263,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.07705443708400424,
+          "zero_loss_count": 618,
+          "strict_loss_count": 30
+        },
+        "contiguous": {
+          "n": 648,
+          "minimum": 0.0,
+          "mean": 0.06225284564548343,
+          "median": 0.03015928899619092,
+          "p95": 0.1938103242284598,
+          "maximum": 0.3635245520039333,
+          "zero_loss_count": 175,
+          "strict_loss_count": 473
+        },
+        "greedy": {
+          "n": 648,
+          "minimum": 0.0,
+          "mean": 0.004643473646493999,
+          "median": 0.0,
+          "p95": 0.031033496788665908,
+          "maximum": 0.125141389717381,
+          "zero_loss_count": 510,
+          "strict_loss_count": 138
+        }
+      },
+      "effective_type_count_range": [
+        51,
+        60
+      ]
+    }
+  },
+  "s1_cost_groups": {
+    "activation_heavy": {
+      "n": 216,
+      "minimum": 0.0,
+      "mean": 0.010702508268994371,
+      "median": 0.0,
+      "p95": 0.05306009016550412,
+      "maximum": 0.125141389717381,
+      "zero_loss_count": 140,
+      "strict_loss_count": 76
+    },
+    "balanced": {
+      "n": 216,
+      "minimum": 0.0,
+      "mean": 0.0027250773840069497,
+      "median": 0.0,
+      "p95": 0.015670324327558476,
+      "maximum": 0.06724757044353472,
+      "zero_loss_count": 171,
+      "strict_loss_count": 45
+    },
+    "service_heavy": {
+      "n": 216,
+      "minimum": 0.0,
+      "mean": 0.0005028352864806759,
+      "median": 0.0,
+      "p95": 0.004598940703154292,
+      "maximum": 0.012712967075822666,
+      "zero_loss_count": 199,
+      "strict_loss_count": 17
+    }
+  },
+  "capacity": {
+    "n": 648,
+    "k_star_distribution": {
+      "0": 17,
+      "1": 66,
+      "2": 156,
+      "3": 124,
+      "4": 133,
+      "5": 150,
+      "6": 2
+    },
+    "gap_by_k": {
+      "0": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.9697765410657562,
+        "median": 1.0,
+        "p95": 1.0,
+        "maximum": 1.0,
+        "zero_loss_count": 17,
+        "strict_loss_count": 631
+      },
+      "1": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.1882195667606492,
+        "median": 0.19415657343160364,
+        "p95": 0.40356965779056625,
+        "maximum": 0.5435028647095851,
+        "zero_loss_count": 83,
+        "strict_loss_count": 565
+      },
+      "2": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.05700557865642674,
+        "median": 0.03088139230965222,
+        "p95": 0.20005701665414055,
+        "maximum": 0.31409346358401874,
+        "zero_loss_count": 239,
+        "strict_loss_count": 409
+      },
+      "3": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.018740182032905364,
+        "median": 0.0,
+        "p95": 0.1000120647380254,
+        "maximum": 0.15995641853867462,
+        "zero_loss_count": 363,
+        "strict_loss_count": 285
+      },
+      "4": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.004766695065506541,
+        "median": 0.0,
+        "p95": 0.035289816564007835,
+        "maximum": 0.06816055800019237,
+        "zero_loss_count": 496,
+        "strict_loss_count": 152
+      },
+      "5": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 3.7444895106685857e-06,
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0019984697945261364,
+        "zero_loss_count": 646,
+        "strict_loss_count": 2
+      },
+      "6": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0,
+        "zero_loss_count": 648,
+        "strict_loss_count": 0
+      },
+      "7": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0,
+        "zero_loss_count": 648,
+        "strict_loss_count": 0
+      },
+      "8": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0,
+        "zero_loss_count": 648,
+        "strict_loss_count": 0
+      },
+      "9": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0,
+        "zero_loss_count": 648,
+        "strict_loss_count": 0
+      },
+      "10": {
+        "n": 648,
+        "minimum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0,
+        "zero_loss_count": 648,
+        "strict_loss_count": 0
+      }
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}

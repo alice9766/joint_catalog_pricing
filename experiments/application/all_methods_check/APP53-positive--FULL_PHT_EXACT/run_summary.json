@@ -1,0 +1,20 @@
+{
+  "elapsed_seconds": 0.0640852590004215,
+  "exit_code": 0,
+  "input_sha256": "98a8bc83c78f8b22b9a71ea428e008f297b720d4f4675626f694ea4776e421e2",
+  "menu": [
+    1,
+    2
+  ],
+  "method": "FULL_PHT_EXACT",
+  "prices": [
+    "6",
+    "9"
+  ],
+  "profit": "254",
+  "recorded_profit": "254",
+  "recorded_profit_matches": true,
+  "run_id": "APP53-positive--FULL_PHT_EXACT",
+  "scenario": "positive",
+  "status": "PASS"
+}

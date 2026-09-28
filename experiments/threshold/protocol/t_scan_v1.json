@@ -1,0 +1,43 @@
+{
+  "protocol_id": "SafeRefresh-R5-T-v1",
+  "date": "2026-09-23",
+  "protocol_status": "DEFINED",
+  "scan_status": "NOT_RUN",
+  "solver_calls_this_round": 0,
+  "mode": "exact_fraction",
+  "T_values": [20, 40, 80, 160],
+  "raw_record_count": 960,
+  "total_weight": "120",
+  "theta_min": "1",
+  "theta_max": "9",
+  "workloads": ["independent", "correlated"],
+  "repetitions": 3,
+  "profiles": [
+    {"id":"A", "M":4, "B":2, "K":2, "qualities":["1","2","3","4"], "ceilings":[1,3], "fixed_costs":["2","5","3","7"], "marginal_costs":["0","1","1/2","2"]},
+    {"id":"B", "M":6, "B":3, "K":3, "qualities":["1","2","3","4","5","6"], "ceilings":[1,3,5], "fixed_costs":["2","5","3","7","4","6"], "marginal_costs":["0","1","1/2","2","1","5/2"]}
+  ],
+  "legacy_price_grid": ["0"],
+  "limits": {
+    "per_attempt_wall_seconds": 60,
+    "per_worker_address_space_bytes": 4294967296,
+    "suite_wall_seconds": 3600,
+    "parallel_workers": 1,
+    "cpu_threads": 1,
+    "timeout_kill_grace_seconds": 2
+  },
+  "attempt_order": "T ascending, profile A then B, workload independent then correlated, repetition 1..3",
+  "resource_failure_policy": "First TIMEOUT or confirmed MEMORY_LIMIT closes remaining repetitions and larger T within the same profile/workload family; mark them NOT_RUN_RESOURCE_STOP, never inferred timeout.",
+  "validation_failure_policy": "Stop suite on INPUT_INVALID, RECONSTRUCTION_FAIL or SOLVER_ERROR; preserve all rows and diagnostics; fix under a new version before any rerun.",
+  "global_budget_policy": "Reserve 62 seconds before each new worker; otherwise close remaining attempts as NOT_RUN_SUITE_BUDGET.",
+  "solver_snapshot": {
+    "file": "persistent_hull_tree_dp.py",
+    "sha256": "ed856fa9a4a2eccf48b952c4eb1d15e1d5add3fae20fcec113f92f4057c78d06",
+    "entry": "solve_persistent_hull_tree(instance, K, exact=True)",
+    "target_size": null,
+    "type_file": "exact_srmd.py",
+    "type_file_sha256": "f86cea7c3bcaf68635388dbb71cd0b04b0fe7e0ce733135ccebe322bac53f3f9"
+  },
+  "runner_status": "TO_IMPLEMENT_AND_PREFLIGHT_BEFORE_EXECUTION",
+  "baselines_in_this_scan": [],
+  "historical_timings_may_be_combined_for_speedup": false
+}

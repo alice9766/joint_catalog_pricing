@@ -1,0 +1,383 @@
+{
+  "checks": [
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-independent-T20-r1",
+      "canonical_profit": "145291/133",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-correlated-T20-r1",
+      "canonical_profit": "152791/133",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-independent-T20-r1",
+      "canonical_profit": "237868/209",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-correlated-T20-r1",
+      "canonical_profit": "609736/513",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-independent-T20-r1",
+      "canonical_profit": "493408/437",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-correlated-T20-r1",
+      "canonical_profit": "515908/437",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-independent-T40-r1",
+      "canonical_profit": "1842818/1729",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-correlated-T40-r1",
+      "canonical_profit": "101807/91",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-independent-T40-r1",
+      "canonical_profit": "3021844/2717",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-correlated-T40-r1",
+      "canonical_profit": "179508218/154869",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-independent-T40-r1",
+      "canonical_profit": "6268744/5681",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-correlated-T40-r1",
+      "canonical_profit": "124288236/107939",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 234,
+      "N_raw": 960,
+      "attempt_id": "P300--STRESS-M12-B6-K6-independent-T40-r1",
+      "canonical_profit": "2717848/2717",
+      "replayed_assignments": 960,
+      "selected_contracts": 6,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 234,
+      "N_raw": 960,
+      "attempt_id": "P300--STRESS-M12-B6-K6-correlated-T40-r1",
+      "canonical_profit": "4860762/4693",
+      "replayed_assignments": 960,
+      "selected_contracts": 6,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 234,
+      "N_raw": 960,
+      "attempt_id": "P300--STRESS-M12-B6-K6-correlated-T40-r2",
+      "canonical_profit": "4860762/4693",
+      "replayed_assignments": 960,
+      "selected_contracts": 6,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 234,
+      "N_raw": 960,
+      "attempt_id": "P300--STRESS-M12-B6-K6-independent-T40-r2",
+      "canonical_profit": "2717848/2717",
+      "replayed_assignments": 960,
+      "selected_contracts": 6,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-correlated-T40-r2",
+      "canonical_profit": "124288236/107939",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-independent-T40-r2",
+      "canonical_profit": "6268744/5681",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-correlated-T40-r2",
+      "canonical_profit": "179508218/154869",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-independent-T40-r2",
+      "canonical_profit": "3021844/2717",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-correlated-T40-r2",
+      "canonical_profit": "101807/91",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-independent-T40-r2",
+      "canonical_profit": "1842818/1729",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-correlated-T20-r2",
+      "canonical_profit": "515908/437",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-independent-T20-r2",
+      "canonical_profit": "493408/437",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-correlated-T20-r2",
+      "canonical_profit": "609736/513",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-independent-T20-r2",
+      "canonical_profit": "237868/209",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-correlated-T20-r2",
+      "canonical_profit": "152791/133",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-independent-T20-r2",
+      "canonical_profit": "145291/133",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-correlated-T40-r3",
+      "canonical_profit": "101807/91",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-independent-T40-r3",
+      "canonical_profit": "3021844/2717",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-correlated-T40-r3",
+      "canonical_profit": "179508218/154869",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-independent-T40-r3",
+      "canonical_profit": "6268744/5681",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-correlated-T40-r3",
+      "canonical_profit": "124288236/107939",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 234,
+      "N_raw": 960,
+      "attempt_id": "P300--STRESS-M12-B6-K6-independent-T40-r3",
+      "canonical_profit": "2717848/2717",
+      "replayed_assignments": 960,
+      "selected_contracts": 6,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 234,
+      "N_raw": 960,
+      "attempt_id": "P300--STRESS-M12-B6-K6-correlated-T40-r3",
+      "canonical_profit": "4860762/4693",
+      "replayed_assignments": 960,
+      "selected_contracts": 6,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-independent-T20-r3",
+      "canonical_profit": "145291/133",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-correlated-T20-r3",
+      "canonical_profit": "152791/133",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-independent-T20-r3",
+      "canonical_profit": "237868/209",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M12-correlated-T20-r3",
+      "canonical_profit": "609736/513",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-independent-T20-r3",
+      "canonical_profit": "493408/437",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 76,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M24-correlated-T20-r3",
+      "canonical_profit": "515908/437",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    },
+    {
+      "N_eff": 156,
+      "N_raw": 960,
+      "attempt_id": "P300--MAIN-M08-independent-T40-r3",
+      "canonical_profit": "1842818/1729",
+      "replayed_assignments": 960,
+      "selected_contracts": 4,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

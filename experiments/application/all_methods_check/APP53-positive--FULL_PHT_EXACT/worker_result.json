@@ -1,0 +1,121 @@
+{
+  "arithmetic": "fractions.Fraction",
+  "extra": {
+    "capacity_frontier": [
+      "0",
+      "199",
+      "254"
+    ],
+    "pht_internal_reconstruction_gap": "0",
+    "pht_state_count": 162,
+    "pht_threshold_count": 5
+  },
+  "independent_replay": {
+    "accounting_identity_pass": true,
+    "activation_cost": "2",
+    "assignments": [
+      {
+        "choice": -1,
+        "theta": "1",
+        "trust": 0,
+        "type": "low-theta1",
+        "utility": "0",
+        "weight": "16"
+      },
+      {
+        "choice": -1,
+        "theta": "2",
+        "trust": 0,
+        "type": "low-theta2",
+        "utility": "0",
+        "weight": "12"
+      },
+      {
+        "choice": 1,
+        "theta": "3",
+        "trust": 0,
+        "type": "low-theta3",
+        "utility": "0",
+        "weight": "8"
+      },
+      {
+        "choice": 1,
+        "theta": "4",
+        "trust": 0,
+        "type": "low-theta4",
+        "utility": "2",
+        "weight": "4"
+      },
+      {
+        "choice": -1,
+        "theta": "1",
+        "trust": 1,
+        "type": "high-theta1",
+        "utility": "0",
+        "weight": "4"
+      },
+      {
+        "choice": -1,
+        "theta": "2",
+        "trust": 1,
+        "type": "high-theta2",
+        "utility": "0",
+        "weight": "8"
+      },
+      {
+        "choice": 2,
+        "theta": "3",
+        "trust": 1,
+        "type": "high-theta3",
+        "utility": "0",
+        "weight": "12"
+      },
+      {
+        "choice": 2,
+        "theta": "4",
+        "trust": 1,
+        "type": "high-theta4",
+        "utility": "3",
+        "weight": "16"
+      }
+    ],
+    "capacity_and_eligibility_pass": true,
+    "group_demands": {
+      "0": {
+        "exit": "28",
+        "products": [
+          "0",
+          "12",
+          "0"
+        ]
+      },
+      "1": {
+        "exit": "12",
+        "products": [
+          "0",
+          "0",
+          "28"
+        ]
+      }
+    },
+    "menu": [
+      1,
+      2
+    ],
+    "prices": [
+      "6",
+      "9"
+    ],
+    "profit": "254",
+    "revenue": "324",
+    "service_cost": "68",
+    "zero_demand_activated_products_still_charged": true
+  },
+  "input_sha256": "98a8bc83c78f8b22b9a71ea428e008f297b720d4f4675626f694ea4776e421e2",
+  "internal_pht_calls": 1,
+  "method": "FULL_PHT_EXACT",
+  "scenario_id": "APP53-positive",
+  "solver_objective": "254",
+  "status": "COMPLETED_VERIFIED",
+  "validation_scope": "exact choices, permission, capacity, fees, accounting and recovered value; not independent optimality proof"
+}

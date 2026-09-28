@@ -1,0 +1,169 @@
+{
+  "K": 2,
+  "instance": {
+    "buyers": [
+      {
+        "name": "low-theta1",
+        "theta": 1,
+        "trust": 0,
+        "weight": 4
+      },
+      {
+        "name": "low-theta2",
+        "theta": 2,
+        "trust": 0,
+        "weight": 8
+      },
+      {
+        "name": "low-theta3",
+        "theta": 3,
+        "trust": 0,
+        "weight": 12
+      },
+      {
+        "name": "low-theta4",
+        "theta": 4,
+        "trust": 0,
+        "weight": 16
+      },
+      {
+        "name": "high-theta1",
+        "theta": 1,
+        "trust": 1,
+        "weight": 16
+      },
+      {
+        "name": "high-theta2",
+        "theta": 2,
+        "trust": 1,
+        "weight": 12
+      },
+      {
+        "name": "high-theta3",
+        "theta": 3,
+        "trust": 1,
+        "weight": 8
+      },
+      {
+        "name": "high-theta4",
+        "theta": 4,
+        "trust": 1,
+        "weight": 4
+      }
+    ],
+    "fixed_costs": [
+      1,
+      1,
+      1
+    ],
+    "marginal_costs": [
+      0,
+      1,
+      2
+    ],
+    "name": "SafeRefresh application association negative; separate from R26 running example",
+    "price_grid": [
+      0
+    ],
+    "qualities": [
+      1,
+      2,
+      3
+    ],
+    "safety_ceiling": [
+      1,
+      2
+    ]
+  },
+  "metadata": {
+    "association": "negative",
+    "business_setting": "one CME exchange information set, designed display-subscription planning abstraction; no bundling across exchanges, non-display use or redistribution-right inference",
+    "changes_from_spec_defaults": [],
+    "common_period": "one designed planning period; no mapping to real billing month",
+    "demand_rule": {
+      "d": [
+        -6,
+        -2,
+        2,
+        6
+      ],
+      "high": "10 + lambda*d",
+      "low": "10 - lambda*d",
+      "theta": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "eligibility_status": "designed nested scenario: low may access L,M; high may access L,M,H; not a recovered customer entitlement matrix",
+    "frozen_spec": "5.3 section 6.7",
+    "group_labels": [
+      "low",
+      "high"
+    ],
+    "lambda": -1,
+    "main_accounting_case": false,
+    "price_grid_role": "legacy Instance field required for schema only; continuous-price PHT and fixed-menu pricing do not enumerate this grid",
+    "product_labels": [
+      "L",
+      "M",
+      "H"
+    ],
+    "quality_status": "common cardinal coefficients are designed; not estimated from release seconds, prices, or fees",
+    "source_constrained_configuration": {
+      "constraint_role": "defines feasible release-class configuration and its documented order; it is not a numerical profit coefficient",
+      "design_values": true,
+      "first_access_delay_seconds": [
+        86400,
+        900,
+        0
+      ],
+      "first_provision_delay_seconds": [
+        86400,
+        900,
+        0
+      ],
+      "historical_first_access_only": true,
+      "information_scope": "same abstract information set, separate first-provision/first-access contract alternatives; no downloaded trade data",
+      "prior_access_same_observation": [
+        false,
+        false,
+        false
+      ],
+      "real_time_zero_intentional_delay_not_network_latency": true,
+      "release_classes": [
+        "historical",
+        "delayed",
+        "real_time"
+      ],
+      "release_delay_seconds": [
+        86400,
+        900,
+        0
+      ],
+      "source_constraints": {
+        "delayed_lower_seconds_exclusive": 600,
+        "delayed_upper_seconds_exclusive": 28800,
+        "historical_first_access_lower_seconds_inclusive": 28800,
+        "historical_prior_real_time_or_delayed_access_allowed": false,
+        "real_time_upper_seconds_inclusive": 600
+      },
+      "source_id": "S-CME-ILA-2026",
+      "source_locator": "section 1 definitions, PDF pages 1-2",
+      "source_url": "https://www.cmegroup.com/market-data/files/information-license-agreement-june-2026.pdf"
+    },
+    "synthetic_fields": [
+      "qualities",
+      "fixed_costs",
+      "marginal_costs",
+      "K",
+      "theta",
+      "weight"
+    ],
+    "tie_rule": "theta=0 exits; otherwise maximize utility incl outside, then price, then quality, then product index",
+    "units": "synthetic model profit units per common planning period; not USD"
+  },
+  "scenario_id": "APP53-negative",
+  "schema_version": "application-input-v1"
+}

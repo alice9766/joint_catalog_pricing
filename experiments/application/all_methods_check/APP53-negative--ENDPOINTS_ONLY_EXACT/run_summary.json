@@ -1,0 +1,20 @@
+{
+  "elapsed_seconds": 0.06409309100126848,
+  "exit_code": 0,
+  "input_sha256": "33aad50920833f5899a2a449e79d80d04523c06af2fc3421b604e500237cf58c",
+  "menu": [
+    0,
+    2
+  ],
+  "method": "ENDPOINTS_ONLY_EXACT",
+  "prices": [
+    "3",
+    "6"
+  ],
+  "profit": "178",
+  "recorded_profit": "178",
+  "recorded_profit_matches": true,
+  "run_id": "APP53-negative--ENDPOINTS_ONLY_EXACT",
+  "scenario": "negative",
+  "status": "PASS"
+}

@@ -1,0 +1,4 @@
+Scenario,PHT_Greedy_prices,PHT_Greedy_profit,Endpoint_prices,Endpoint_profit
+negative,"6, 6",234,"3, 6",178
+independent,"6, 9",238,"2, 8",198
+positive,"6, 9",254,"2, 8",230

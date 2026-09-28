@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "included_in_current_main_paper": false,
+  "scope": "Exact evaluation of the independent-case menu under the existing negative-association input; no new scenario or solver run.",
+  "evaluated_scenario": "APP53-negative",
+  "menu": [
+    1,
+    2
+  ],
+  "prices": [
+    "6",
+    "9"
+  ],
+  "profit": "222",
+  "scenario_optimal_menu": [
+    1,
+    2
+  ],
+  "scenario_optimal_prices": [
+    "6",
+    "6"
+  ],
+  "scenario_optimal_profit": "234",
+  "relative_loss": "2/39",
+  "relative_loss_percent": 5.128205128205129,
+  "revenue": "276",
+  "service_cost": "52",
+  "activation_cost": "2",
+  "assignments": [
+    {
+      "type": "low-theta1",
+      "choice": -1,
+      "weight": "4"
+    },
+    {
+      "type": "low-theta2",
+      "choice": -1,
+      "weight": "8"
+    },
+    {
+      "type": "low-theta3",
+      "choice": 1,
+      "weight": "12"
+    },
+    {
+      "type": "low-theta4",
+      "choice": 1,
+      "weight": "16"
+    },
+    {
+      "type": "high-theta1",
+      "choice": -1,
+      "weight": "16"
+    },
+    {
+      "type": "high-theta2",
+      "choice": -1,
+      "weight": "12"
+    },
+    {
+      "type": "high-theta3",
+      "choice": 2,
+      "weight": "8"
+    },
+    {
+      "type": "high-theta4",
+      "choice": 2,
+      "weight": "4"
+    }
+  ]
+}

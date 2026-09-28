@@ -1,0 +1,19 @@
+{
+  "arithmetic": "fractions.Fraction; no tolerance",
+  "budget_scope": "one entire scenario-method worker incl imports, all internal solves and replay",
+  "budget_seconds": 300,
+  "elapsed_seconds": 0.06452207199981785,
+  "error": null,
+  "exit_code": 0,
+  "input_path": "inputs/APP53-independent.json",
+  "input_sha256": "b8d64b49a67f2365c92c8c900e3d81d381a1f0ec4d880cc50b6857ea772faa66",
+  "lambda": 0,
+  "method": "FULL_PHT_EXACT",
+  "partial_result_policy": "any result under a non-completed controller status is diagnostic only",
+  "result_path": "APP53-independent--FULL_PHT_EXACT/worker_result.json",
+  "run_id": "APP53-independent--FULL_PHT_EXACT",
+  "scenario_id": "APP53-independent",
+  "status": "COMPLETED_VERIFIED",
+  "worker_pid": 9,
+  "worker_result_usable": true
+}

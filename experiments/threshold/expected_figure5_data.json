@@ -1,0 +1,309 @@
+{
+  "source_sha256": "213550688b19447f4d328d15a9f42131a5fcb5683ae4889245b41d4577d4e072",
+  "scan_cases": [
+    {
+      "case_id": "A-correlated-T160",
+      "profile": "A",
+      "workload": "correlated",
+      "T": 160,
+      "M": 4,
+      "B": 2,
+      "K": 2,
+      "process_wall_seconds": [
+        0.34535089900600724,
+        0.3466530649966444,
+        0.32508906300063245
+      ],
+      "peak_rss_mib": [
+        18.875,
+        18.87109375,
+        18.87109375
+      ]
+    },
+    {
+      "case_id": "A-correlated-T20",
+      "profile": "A",
+      "workload": "correlated",
+      "T": 20,
+      "M": 4,
+      "B": 2,
+      "K": 2,
+      "process_wall_seconds": [
+        0.13344255400443217,
+        0.15277636399696348,
+        0.1337777860026108
+      ],
+      "peak_rss_mib": [
+        16.37109375,
+        16.375,
+        16.375
+      ]
+    },
+    {
+      "case_id": "A-correlated-T40",
+      "profile": "A",
+      "workload": "correlated",
+      "T": 40,
+      "M": 4,
+      "B": 2,
+      "K": 2,
+      "process_wall_seconds": [
+        0.15250194799591554,
+        0.1758491660002619,
+        0.19454632599808974
+      ],
+      "peak_rss_mib": [
+        16.74609375,
+        16.75,
+        16.74609375
+      ]
+    },
+    {
+      "case_id": "A-correlated-T80",
+      "profile": "A",
+      "workload": "correlated",
+      "T": 80,
+      "M": 4,
+      "B": 2,
+      "K": 2,
+      "process_wall_seconds": [
+        0.21428509100223891,
+        0.2057704230028321,
+        0.22429678899788996
+      ],
+      "peak_rss_mib": [
+        17.5,
+        17.49609375,
+        17.5
+      ]
+    },
+    {
+      "case_id": "A-independent-T160",
+      "profile": "A",
+      "workload": "independent",
+      "T": 160,
+      "M": 4,
+      "B": 2,
+      "K": 2,
+      "process_wall_seconds": [
+        0.325075350003317,
+        0.3471212180011207,
+        0.3450620970033924
+      ],
+      "peak_rss_mib": [
+        18.87109375,
+        18.74609375,
+        18.75
+      ]
+    },
+    {
+      "case_id": "A-independent-T20",
+      "profile": "A",
+      "workload": "independent",
+      "T": 20,
+      "M": 4,
+      "B": 2,
+      "K": 2,
+      "process_wall_seconds": [
+        0.211691439995775,
+        0.15352513199468376,
+        0.14403954200679436
+      ],
+      "peak_rss_mib": [
+        18.125,
+        16.375,
+        16.37109375
+      ]
+    },
+    {
+      "case_id": "A-independent-T40",
+      "profile": "A",
+      "workload": "independent",
+      "T": 40,
+      "M": 4,
+      "B": 2,
+      "K": 2,
+      "process_wall_seconds": [
+        0.20453842500137398,
+        0.18350786800147034,
+        0.1947890580049716
+      ],
+      "peak_rss_mib": [
+        16.74609375,
+        16.74609375,
+        16.74609375
+      ]
+    },
+    {
+      "case_id": "A-independent-T80",
+      "profile": "A",
+      "workload": "independent",
+      "T": 80,
+      "M": 4,
+      "B": 2,
+      "K": 2,
+      "process_wall_seconds": [
+        0.24437406299693976,
+        0.2034722239986877,
+        0.19423106099566212
+      ],
+      "peak_rss_mib": [
+        17.375,
+        17.37109375,
+        17.375
+      ]
+    },
+    {
+      "case_id": "B-correlated-T160",
+      "profile": "B",
+      "workload": "correlated",
+      "T": 160,
+      "M": 6,
+      "B": 3,
+      "K": 3,
+      "process_wall_seconds": [
+        8.756560665002326,
+        6.50303317700309,
+        6.55605825100065
+      ],
+      "peak_rss_mib": [
+        63.06640625,
+        63.06640625,
+        63.0703125
+      ]
+    },
+    {
+      "case_id": "B-correlated-T20",
+      "profile": "B",
+      "workload": "correlated",
+      "T": 20,
+      "M": 6,
+      "B": 3,
+      "K": 3,
+      "process_wall_seconds": [
+        0.21381513800588436,
+        0.1734639589994913,
+        0.18742055800248636
+      ],
+      "peak_rss_mib": [
+        17.99609375,
+        18.0,
+        17.99609375
+      ]
+    },
+    {
+      "case_id": "B-correlated-T40",
+      "profile": "B",
+      "workload": "correlated",
+      "T": 40,
+      "M": 6,
+      "B": 3,
+      "K": 3,
+      "process_wall_seconds": [
+        0.3363864719940466,
+        0.3257709969984717,
+        0.3672999409973272
+      ],
+      "peak_rss_mib": [
+        21.12109375,
+        21.125,
+        21.125
+      ]
+    },
+    {
+      "case_id": "B-correlated-T80",
+      "profile": "B",
+      "workload": "correlated",
+      "T": 80,
+      "M": 6,
+      "B": 3,
+      "K": 3,
+      "process_wall_seconds": [
+        1.1378668499964988,
+        1.276437223998073,
+        1.6537914920045296
+      ],
+      "peak_rss_mib": [
+        30.453125,
+        30.4609375,
+        30.45703125
+      ]
+    },
+    {
+      "case_id": "B-independent-T160",
+      "profile": "B",
+      "workload": "independent",
+      "T": 160,
+      "M": 6,
+      "B": 3,
+      "K": 3,
+      "process_wall_seconds": [
+        7.620707786998537,
+        7.999522619997151,
+        10.0083591779985
+      ],
+      "peak_rss_mib": [
+        62.9921875,
+        62.98828125,
+        62.98828125
+      ]
+    },
+    {
+      "case_id": "B-independent-T20",
+      "profile": "B",
+      "workload": "independent",
+      "T": 20,
+      "M": 6,
+      "B": 3,
+      "K": 3,
+      "process_wall_seconds": [
+        0.193204376999347,
+        0.21522287400148343,
+        0.26624475700373296
+      ],
+      "peak_rss_mib": [
+        17.99609375,
+        17.99609375,
+        17.99609375
+      ]
+    },
+    {
+      "case_id": "B-independent-T40",
+      "profile": "B",
+      "workload": "independent",
+      "T": 40,
+      "M": 6,
+      "B": 3,
+      "K": 3,
+      "process_wall_seconds": [
+        0.37816542600194225,
+        0.32480966999719385,
+        0.33486388999881456
+      ],
+      "peak_rss_mib": [
+        20.98828125,
+        20.98828125,
+        20.98828125
+      ]
+    },
+    {
+      "case_id": "B-independent-T80",
+      "profile": "B",
+      "workload": "independent",
+      "T": 80,
+      "M": 6,
+      "B": 3,
+      "K": 3,
+      "process_wall_seconds": [
+        1.1570117270021,
+        1.218299914005911,
+        1.1588718179991702
+      ],
+      "peak_rss_mib": [
+        30.3984375,
+        30.39453125,
+        30.3984375
+      ]
+    }
+  ]
+}

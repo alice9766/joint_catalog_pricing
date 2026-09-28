@@ -1,0 +1,51 @@
+% CN/EN-V-v0.3; freeze F-EVALUATION-COMPACT-20260928.
+\begin{table}[tb]
+\centering
+\caption{Decisions and profit in the menu planning case}
+\label{tab:planning-case}
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrr@{}}
+\toprule
+\multicolumn{4}{@{}l}{(a) Menu, revenue, and costs in the independent case} \\
+\addlinespace[2pt]
+Metric & M & H & Total \\
+\midrule
+Public price & 6 & 9 & --- \\
+Low-access subscriptions & 20 & 0 & 20 \\
+High-access subscriptions & 0 & 20 & 20 \\
+Revenue & 120 & 180 & 300 \\
+Service cost & 20 & 40 & 60 \\
+Activation cost & 1 & 1 & 2 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{2pt}
+\begin{minipage}{\columnwidth}
+\footnotesize
+Twenty customers in each of the low- and high-access groups exit.
+Total profit is 238.
+\end{minipage}
+\par\vspace{6pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcrcr@{}}
+\toprule
+\multicolumn{5}{@{}l}{(b) Access--valuation association scenarios} \\
+\addlinespace[2pt]
+& \multicolumn{2}{c}{PHT / Greedy} & \multicolumn{2}{c}{Endpoint method} \\
+\cmidrule(lr){2-3}\cmidrule(l){4-5}
+Scenario & Prices & Profit & Prices & Profit \\
+\midrule
+\shortstack[l]{Negative\\association} & 6, 6 & 234 & 3, 6 & 178 \\
+Independent & 6, 9 & 238 & 2, 8 & 198 \\
+\shortstack[l]{Positive\\association} & 6, 9 & 254 & 2, 8 & 230 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{2pt}
+\begin{minipage}{\columnwidth}
+\footnotesize
+PHT and Greedy have identical results and both select M, H in all
+scenarios. The endpoint method selects L, H in all scenarios.
+Public prices follow the corresponding catalog order. All monetary
+amounts are in model units.
+\end{minipage}
+\end{table}

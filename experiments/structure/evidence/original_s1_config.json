@@ -1,0 +1,65 @@
+{
+  "protocol_id": "SafeRefresh-S1-v1.0",
+  "frozen_at": "2026-09-11",
+  "status_at_freeze": "DESIGN_FROZEN_RESULTS_NOT_STARTED",
+  "historical_boundary": {
+    "gate_d2": "FAIL",
+    "e8": "NOT_RUN_STOP_RULE",
+    "s1_is_e8": false,
+    "may_upgrade_gate_d2": false,
+    "may_read_gate_d2_measurements": false,
+    "rho_model": null,
+    "units": "dimensionless_synthetic_scenario_units"
+  },
+  "qualification": {
+    "M": [3, 4, 5],
+    "N": [3, 5],
+    "B_rule": "1..min(M,N)",
+    "K_rule": "1..M",
+    "seed_base": 2026092000,
+    "seed_offsets": [0, 1, 2, 3, 4],
+    "expected_instances": 105,
+    "expected_frontier_points": 420,
+    "milp_seconds_per_k": 20,
+    "relative_tolerance": 0.000002
+  },
+  "main": {
+    "M": 10,
+    "B": 5,
+    "K": 4,
+    "T": 12,
+    "N": 240,
+    "quality_shapes": ["diminishing", "linear", "accelerating"],
+    "demand_shapes": ["uniform", "heavy_tail", "bimodal", "near_tie"],
+    "access_profiles": ["balanced", "restrictive", "permissive"],
+    "cost_profiles": ["activation_heavy", "balanced", "service_heavy"],
+    "seed_base": 2026092100,
+    "seed_offsets": [0, 1, 2, 3, 4, 5],
+    "expected_instances": 648,
+    "baselines": ["path", "one_branch", "contiguous", "greedy_add_one"]
+  },
+  "sensitivity": {
+    "nominal_seed_offsets": [0, 1],
+    "epsilons": [0.02, 0.05, 0.1],
+    "perturb_seed_base": 2026093000,
+    "expected_nominal_instances": 216,
+    "expected_scenarios": 648,
+    "perturb": ["positive_quality_increments", "fixed_costs", "marginal_costs", "buyer_theta"],
+    "hold_fixed": ["weights", "trust_groups", "safety_ceilings", "product_order", "K"]
+  },
+  "execution": {
+    "workers": 4,
+    "worker_timeout_seconds": 180,
+    "pht_hard_timeout_seconds": 120,
+    "smoke_seed": 2026091999,
+    "formal_results_are_immutable": true
+  },
+  "outputs": {
+    "qualification": "results/s1_confirmatory_20260911/qualification.jsonl",
+    "main": "results/s1_confirmatory_20260911/main.jsonl",
+    "sensitivity": "results/s1_confirmatory_20260911/sensitivity.jsonl",
+    "summary": "SAFE_REFRESH_SYNTHETIC_EVALUATION_S1_RESULTS.json",
+    "audit": "SAFE_REFRESH_SYNTHETIC_EVALUATION_S1_INDEPENDENT_AUDIT.json",
+    "report": "../reports/SAFE_REFRESH_SYNTHETIC_EVALUATION_S1_FINAL_CN.md"
+  }
+}

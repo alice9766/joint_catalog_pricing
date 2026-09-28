@@ -1,0 +1,19 @@
+{
+  "arithmetic": "fractions.Fraction; no tolerance",
+  "budget_scope": "one entire scenario-method worker incl imports, all internal solves and replay",
+  "budget_seconds": 300,
+  "elapsed_seconds": 0.06455289799851016,
+  "error": null,
+  "exit_code": 0,
+  "input_path": "inputs/APP53-positive.json",
+  "input_sha256": "98a8bc83c78f8b22b9a71ea428e008f297b720d4f4675626f694ea4776e421e2",
+  "lambda": 1,
+  "method": "ENDPOINTS_ONLY_EXACT",
+  "partial_result_policy": "any result under a non-completed controller status is diagnostic only",
+  "result_path": "APP53-positive--ENDPOINTS_ONLY_EXACT/worker_result.json",
+  "run_id": "APP53-positive--ENDPOINTS_ONLY_EXACT",
+  "scenario_id": "APP53-positive",
+  "status": "COMPLETED_VERIFIED",
+  "worker_pid": 14,
+  "worker_result_usable": true
+}

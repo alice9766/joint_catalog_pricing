@@ -1,0 +1,32 @@
+{
+  "source_identity": "R23 support archive; r16_comparison/benchmark/vendor",
+  "files": [
+    {
+      "source_path": "/workspace/scratch/bd055d62a65f/review/support_archive/SafeRefresh_R23_Public_Repro_Candidate/r16_comparison/benchmark/vendor/exact_srmd.py",
+      "snapshot_path": "vendor/exact_srmd.py",
+      "sha256": "f86cea7c3bcaf68635388dbb71cd0b04b0fe7e0ce733135ccebe322bac53f3f9",
+      "bytes": 24503,
+      "modified": false
+    },
+    {
+      "source_path": "/workspace/scratch/bd055d62a65f/review/support_archive/SafeRefresh_R23_Public_Repro_Candidate/r16_comparison/benchmark/vendor/persistent_hull_tree_dp.py",
+      "snapshot_path": "vendor/persistent_hull_tree_dp.py",
+      "sha256": "ed856fa9a4a2eccf48b952c4eb1d15e1d5add3fae20fcec113f92f4057c78d06",
+      "bytes": 26860,
+      "modified": false
+    },
+    {
+      "source_path": "/workspace/scratch/bd055d62a65f/review/support_archive/SafeRefresh_R23_Public_Repro_Candidate/r16_comparison/benchmark/vendor/fixed_menu_pricing.py",
+      "snapshot_path": "vendor/fixed_menu_pricing.py",
+      "sha256": "a3e0c759ab8f7c6f1325808a505a0d08f8f6541f62e311142b1c5185aeebf44b",
+      "bytes": 4836,
+      "modified": false
+    }
+  ],
+  "application_changes": "Separate wrapper uses exact=True, exact strict improvement comparisons, and canonical replay; archived files unchanged.",
+  "legacy_function_exclusions": [
+    "exact_srmd.evaluate",
+    "exact_srmd.choose_product",
+    "pht_structure_baselines.fixed_menu_value (casts to float)"
+  ]
+}

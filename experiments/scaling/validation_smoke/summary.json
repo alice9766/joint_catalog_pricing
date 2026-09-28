@@ -1,0 +1,14 @@
+{
+  "address_space_limit_bytes": 4294967296,
+  "completed_attempts": 1,
+  "deadline_seconds": 300,
+  "independent_replays": 1,
+  "same_archived_optimizer_and_worker": true,
+  "scope": "New execution on the current machine; these timings are not substituted into Table II.",
+  "selected_attempts": 1,
+  "status": "PASS",
+  "status_counts": {
+    "EXACT_COMPLETE": 1
+  },
+  "worker_cpu": 0
+}

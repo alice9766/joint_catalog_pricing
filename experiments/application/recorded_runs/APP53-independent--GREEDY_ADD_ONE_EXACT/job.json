@@ -1,0 +1,12 @@
+{
+  "arithmetic": "fractions.Fraction; no tolerance",
+  "budget_scope": "one entire scenario-method worker incl imports, all internal solves and replay",
+  "budget_seconds": 300,
+  "input_path": "inputs/APP53-independent.json",
+  "input_sha256": "b8d64b49a67f2365c92c8c900e3d81d381a1f0ec4d880cc50b6857ea772faa66",
+  "lambda": 0,
+  "method": "GREEDY_ADD_ONE_EXACT",
+  "run_id": "APP53-independent--GREEDY_ADD_ONE_EXACT",
+  "scenario_id": "APP53-independent",
+  "status": "NOT_RUN"
+}

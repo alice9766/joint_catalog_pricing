@@ -1,0 +1,12 @@
+{
+  "arithmetic": "fractions.Fraction; no tolerance",
+  "budget_scope": "one entire scenario-method worker incl imports, all internal solves and replay",
+  "budget_seconds": 300,
+  "input_path": "inputs/APP53-negative.json",
+  "input_sha256": "33aad50920833f5899a2a449e79d80d04523c06af2fc3421b604e500237cf58c",
+  "lambda": -1,
+  "method": "ENDPOINTS_ONLY_EXACT",
+  "run_id": "APP53-negative--ENDPOINTS_ONLY_EXACT",
+  "scenario_id": "APP53-negative",
+  "status": "NOT_RUN"
+}

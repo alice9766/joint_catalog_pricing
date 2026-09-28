@@ -1,0 +1,25 @@
+% Generated from exact replay of the nine recorded application results.
+% Requires booktabs. Part (a): independent case; profit 238; 20 exits in each group.
+\begin{tabular}{lrrr}
+\toprule
+Metric & M & H & Total \\
+\midrule
+Public price & 6 & 9 & --- \\
+Low-access subscriptions & 20 & 0 & 20 \\
+High-access subscriptions & 0 & 20 & 20 \\
+Revenue & 120 & 180 & 300 \\
+Service cost & 20 & 40 & 60 \\
+Activation cost & 1 & 1 & 2 \\
+\bottomrule
+\end{tabular}
+
+% Part (b): PHT and Greedy choose M,H; Endpoint chooses L,H.
+\begin{tabular}{lcrcr}
+\toprule
+Scenario & PHT / Greedy prices & Profit & Endpoint prices & Profit \\
+\midrule
+Negative & 6, 6 & 234 & 3, 6 & 178 \\
+Independent & 6, 9 & 238 & 2, 8 & 198 \\
+Positive & 6, 9 & 254 & 2, 8 & 230 \\
+\bottomrule
+\end{tabular}

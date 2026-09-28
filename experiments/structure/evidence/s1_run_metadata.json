@@ -1,0 +1,25 @@
+{
+  "code_hashes": {
+    "continuous_srmd.py": "fe2f7a10af557fc855f56913672007f172682b29e3aa64806feddebf4e2e2ab6",
+    "persistent_hull_tree_dp.py": "574392e5b3d504c335592be6d8c4b07c1b90f8214578c6459b3f1c8511309132",
+    "pht_structure_baselines.py": "751d548b6a17ac09588b65de89df43657eefef80fa8362c5de839a522545bfb1",
+    "run_saferefresh_s1.py": "91ff1442efc38a0e289c579979c7330d257adc4e3217cea3f4355f0dc77ead2c",
+    "srmd_direct_milp.py": "7cebcec59d83493ffcbb3d8f5e0211c1acbe715b5eee75cfc02d4a444ffbefbe"
+  },
+  "design_hashes": {
+    "SAFE_REFRESH_SYNTHETIC_EVALUATION_S1_CONFIG.json": "a4f212491ab156c0edc14e9a165030e101247232a80ccf5afba08c1bc0cfb4df",
+    "SAFE_REFRESH_SYNTHETIC_EVALUATION_S1_PROTOCOL_FROZEN_CN.md": "6f8f88eff683a1d60bada1303a5da5a970dd8191b29b1fef20064b03ff2d1cdf"
+  },
+  "environment": {
+    "cpu_count": 8,
+    "platform": "macOS-15.6-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.9.13 (main, Aug 25 2022, 18:24:45) \n[Clang 12.0.0 ]"
+  },
+  "historical_boundary": {
+    "e8": "NOT_RUN_STOP_RULE",
+    "gate_d2": "FAIL",
+    "s1_is_e8": false
+  },
+  "protocol_id": "SafeRefresh-S1-v1.0"
+}

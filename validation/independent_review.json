@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Read-only independent inspection of current Section V, the two current table sources, Figure 5/6 data mapping, five experiment areas, seven documents, and twelve CLI entry points. No full-suite optimization rerun performed by this reviewer.",
+  "checks": {
+    "table_ii_source_byte_identical_to_main": true,
+    "table_iii_source_byte_identical_to_main": true,
+    "all_readme_and_docs_relative_markdown_links_exist": true,
+    "all_12_script_help_commands_return_zero": true,
+    "main_joint_scan_36_runs_12_inputs_distinguished_from_full_42_runs_14_inputs": true,
+    "current_joint_scan_300_second_source_distinguished_from_old_30_second_experiment": true,
+    "threshold_60_second_budget_and_end_to_end_timer_documented": true,
+    "paired_comparison_30_second_process_vs_25_second_internal_milp_limit_documented": true,
+    "milp_18_optimal_runs_are_six_independent_inputs": true,
+    "milp_primal_assignment_objective_vs_canonical_profit_vs_dual_upper_bound_separated": true,
+    "structure_original_float_tie_rule_and_outside_option_convention_explained": true,
+    "structure_1398_complete_inputs_and_seed_generation_available": true,
+    "structure_correction_mapping_preserves_archived_full_pht_values": true,
+    "structure_original_results_no_complete_menu_certificates_clearly_disclosed": true,
+    "verification_does_not_claim_independent_global_optimum": true,
+    "no_legacy_absolute_paths_in_supported_entry_points_or_required_nonvendor_python": true,
+    "application_public_constraints_vs_synthetic_parameters_distinguished": true,
+    "application_5_percent_diagnostic_excluded_from_current_table_and_main_text": true
+  },
+  "substantive_findings": [],
+  "minor_notes": [
+    {
+      "id": "DOC-01",
+      "severity": "low",
+      "file": "README.md",
+      "finding": "At first inspection quick-start text broadly stated it checks stored menus and profits without noting that the Structure/S1 archived set lacks all menu certificates. Structure documentation states this accurately. Root has agreed to clarify the quick-start scope.",
+      "suggestion": "Say the command regenerates all inputs and summaries, replays available certificates for the other four areas, and recomputes the 1398-instance structure statistics.",
+      "resolution": "RESOLVED",
+      "resolution_verified_by_review": true,
+      "resolved_change": "README now explicitly distinguishes generation/statistics verification for all 1398 structure/S1 inputs from saved-menu replay for the other four experiment areas."
+    },
+    {
+      "id": "DOC-02",
+      "severity": "low",
+      "file": "docs/IMPLEMENTATION_NOTES.md",
+      "finding": "Generic claim that public entry points refuse overwriting any existing output directory is broader than verify_comparison.py, which intentionally permits regeneration in experiments/comparison/validation. Original observations remain protected.",
+      "suggestion": "Qualify overwrite refusal as applying to fresh solves and newly chosen outputs, or describe the comparison verification exception.",
+      "resolution": "RESOLVED",
+      "resolution_verified_by_review": true,
+      "resolved_change": "verify_comparison defaults to reproduced/comparison-verification and mkdir(exist_ok=False); COMPARISON.md explicitly requires a new directory."
+    }
+  ],
+  "remaining_root_validation": "None. Root reported completed clean-location reproduction, all five smoke commands, and pixel-identical regenerated Figure 5/6 reference rendering. These executions were not duplicated by the independent reviewer.",
+  "root_reported_final_validation": {
+    "clean_location": "/tmp/joint-catalog-repro-check-20260928/Joint_Catalog_Reproducibility",
+    "working_directory": "/tmp",
+    "legacy_workspace_reads_blocked_by_sitecustomize": true,
+    "reproduce_status": "PASS",
+    "reproduce_elapsed_seconds": 5.72,
+    "five_fresh_smoke_runs": "PASS; comparison COMPLETE with all_methods_numerically_complete=true",
+    "figures_5_and_6_pixel_equal_to_reference": true,
+    "provenance": "Reported by root; reviewer re-read final README, verification script and comparison documentation to independently resolve DOC-01 and DOC-02."
+  }
+}
