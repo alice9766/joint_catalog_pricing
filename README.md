@@ -61,3 +61,9 @@ The planning scenarios use public timeliness classifications together with expli
 `paper_reference/` contains the frozen figure data, the two table sources, reference figures, and manuscript hashes used to check the correspondence with the paper. `MANIFEST.json` records the delivered file hashes. Reproduction checks these before calculating results. The package includes no full-paper PDF; the proof document uses the notation and numbering of the main paper.
 
 The plotting font's existing attribution and license are retained in `figures/figure_font_copyright.txt`. Exact dependency versions for this release are listed in `requirements.txt`; the recorded timing environments are preserved with the observations.
+
+## Reproducibility materials
+
+Download `ICDE_Reproducibility_20261007.zip` from the **Assets** section of the [reproducibility release](https://github.com/alice9766/joint_catalog_pricing/releases/tag/icde-repro-202610).
+
+Extract the archive and follow the enclosed `README.md` for installation and reproduction commands.
